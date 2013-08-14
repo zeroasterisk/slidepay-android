@@ -1,0 +1,15 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1376516971000 437 697164b32dcb9e5d9ea24bc9703a59dd3b3bde3d /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$style.class
+1376516971000 399 3a4f133180cbccfc1aa25d948b3e8489bad4ac53 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$id.class
+1376516971000 697 8412118e11a9394a81281530a30ba77881cf210d /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R.class
+1376516971000 821 d3f8fba6353bc8dee651397182ef682c9b1a28bb /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/MainActivity.class
+1376509477000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
+1376516971000 478 4d5ff2fe1ec587c77b782a184795a0f7b3111221 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$string.class
+1376516971000 394 1c315b45b2ffde44b8a67216a50639a1200a0d42 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$menu.class
+1376516971000 349 224e94a1c94cd83cea1703b9a2963c51761bd874 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/BuildConfig.class
+1376516971000 413 707dc88632544cc9ce204601da019ae5372d8348 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$drawable.class
+1376516971000 346 a3a37d5b5db721409fe9d2040618c5003a11cf0c /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$attr.class
+1376516971000 409 c3e1cdc3b35bfeea0530f044f3f0c60e3a3a09a5 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$layout.class
+1376516971000 467 4e8c1c93e466992d2f852e34ce85e98c915277ae /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$dimen.class
