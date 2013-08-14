@@ -1,15 +1,22 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1376520090000 437 697164b32dcb9e5d9ea24bc9703a59dd3b3bde3d /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$style.class
-1376520090000 399 3a4f133180cbccfc1aa25d948b3e8489bad4ac53 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$id.class
-1376520090000 697 8412118e11a9394a81281530a30ba77881cf210d /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R.class
-1376520090000 821 d3f8fba6353bc8dee651397182ef682c9b1a28bb /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/MainActivity.class
+1376520949000 449 8bb5ce3d8c33d1dbc3cb3767d34fec5e7a4cf532 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/corelibrary/R$style.class
+1376520949000 697 8412118e11a9394a81281530a30ba77881cf210d /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R.class
+1376520949000 394 1c315b45b2ffde44b8a67216a50639a1200a0d42 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$menu.class
+1376520949000 478 4d5ff2fe1ec587c77b782a184795a0f7b3111221 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$string.class
+1376520948000 1316 19248e467f3b87856ddef380206e511489e4bb0d /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/classes.jar
+1376520949000 349 224e94a1c94cd83cea1703b9a2963c51761bd874 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/BuildConfig.class
+1376520949000 346 a3a37d5b5db721409fe9d2040618c5003a11cf0c /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$attr.class
+1376520949000 413 707dc88632544cc9ce204601da019ae5372d8348 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$drawable.class
+1376521175000 556198 4a6be13368bb64c5a0b0460632d228a1a915f58f /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/libs/android-support-v4.jar
+1376520949000 437 697164b32dcb9e5d9ea24bc9703a59dd3b3bde3d /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$style.class
+1376520949000 399 3a4f133180cbccfc1aa25d948b3e8489bad4ac53 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$id.class
+1376520949000 416 70022cc43f80f8db3c88bb27e4e438a4d441089b /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/corelibrary/R$string.class
+1376521489000 941 97d5ca5e5a58c7ef6fd6f07279ff476a9c589045 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/MainActivity.class
 1376509477000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
-1376520090000 478 4d5ff2fe1ec587c77b782a184795a0f7b3111221 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$string.class
-1376520090000 394 1c315b45b2ffde44b8a67216a50639a1200a0d42 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$menu.class
-1376520090000 349 224e94a1c94cd83cea1703b9a2963c51761bd874 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/BuildConfig.class
-1376520090000 413 707dc88632544cc9ce204601da019ae5372d8348 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$drawable.class
-1376520090000 346 a3a37d5b5db721409fe9d2040618c5003a11cf0c /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$attr.class
-1376520090000 409 c3e1cdc3b35bfeea0530f044f3f0c60e3a3a09a5 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$layout.class
-1376520090000 467 4e8c1c93e466992d2f852e34ce85e98c915277ae /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$dimen.class
+1376520949000 409 c3e1cdc3b35bfeea0530f044f3f0c60e3a3a09a5 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$layout.class
+1376520948000 29173 f70e680861fdf9449819003e7799a4e9aca047f8 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/libs/android-async-http-1.4.3.jar
+1376520949000 425 7d5106e16196daa66eafce60671c84c8aa51b886 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/corelibrary/R$drawable.class
+1376520949000 467 4e8c1c93e466992d2f852e34ce85e98c915277ae /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$dimen.class
+1376520949000 475 23882d89b70add5dcc0da5f9a3f3169a781b07ee /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/classes/debug/com/slidepay/corelibrary/R.class

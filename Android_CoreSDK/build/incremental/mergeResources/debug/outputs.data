@@ -1,12 +1,12 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1376520090000 363 cbba6a4a687a7ec3402f224e7563e2a7ec37e54a /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/menu/main.xml
-1376520090000 349 3d66af09b92df6d42b3ed1db88c0984a099028ee /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/values-v14/values.xml
-1376520090000 9193 450d3d44325fdf259810a60e6afa36103e186b3d /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/drawable-hdpi/ic_launcher.png
-1376520090000 5057 23730fd0d5e720d1f719be1afc8c48fa7305da6c /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/drawable-mdpi/ic_launcher.png
-1376520090000 14068 502cd84fa444f26d7ecfdf4a355064867977f236 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/drawable-xhdpi/ic_launcher.png
-1376520090000 335 d8ca9fd2e2c5a30bcec8f0005869666409c33596 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/values-v11/values.xml
-1376520090000 1176 cf61cf912e0c89081588aa0f366bf2695c51196b /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/values/values.xml
-1376520090000 779 88f16e42ec04e156949122a86164bf5c20785ba9 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/layout/activity_main.xml
-1376520090000 266 f35b1db5803bde47cc33071e4ff340fb6358774e /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/values-sw720dp-land/values.xml
+1376520949000 363 cbba6a4a687a7ec3402f224e7563e2a7ec37e54a /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/menu/main.xml
+1376520949000 349 3d66af09b92df6d42b3ed1db88c0984a099028ee /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/values-v14/values.xml
+1376520949000 9193 450d3d44325fdf259810a60e6afa36103e186b3d /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/drawable-hdpi/ic_launcher.png
+1376520949000 5057 23730fd0d5e720d1f719be1afc8c48fa7305da6c /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/drawable-mdpi/ic_launcher.png
+1376520949000 14068 502cd84fa444f26d7ecfdf4a355064867977f236 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/drawable-xhdpi/ic_launcher.png
+1376520949000 335 d8ca9fd2e2c5a30bcec8f0005869666409c33596 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/values-v11/values.xml
+1376520949000 1176 cf61cf912e0c89081588aa0f366bf2695c51196b /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/values/values.xml
+1376520949000 779 88f16e42ec04e156949122a86164bf5c20785ba9 /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/layout/activity_main.xml
+1376520949000 266 f35b1db5803bde47cc33071e4ff340fb6358774e /Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/all/debug/values-sw720dp-land/values.xml

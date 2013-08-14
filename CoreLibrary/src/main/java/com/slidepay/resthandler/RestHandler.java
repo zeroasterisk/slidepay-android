@@ -11,7 +11,7 @@ public class RestHandler {
     protected AsyncHttpClient mClient;
     protected String mResource;
 
-    RestHandler(){
+    public RestHandler(){
         mClient = new AsyncHttpClient();
         mClient.addHeader("x-cube-encoding","application/json");
         mClient.addHeader("Content-Type","application/json");

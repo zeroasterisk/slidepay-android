@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger>
 
+    <dataSet config="Android_CoreSDKProjectCoreLibraryUnspecified.aar" >
+        <source path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/assets" />
+    </dataSet>
     <dataSet config="main" >
         <source path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/assets" />
     </dataSet>
