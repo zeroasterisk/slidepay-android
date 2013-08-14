@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android_CoreSDK/Android_CoreSDK.iml" filepath="$PROJECT_DIR$/Android_CoreSDK/Android_CoreSDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/Android_CoreSDKProject.iml" filepath="$PROJECT_DIR$/Android_CoreSDKProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreLibrary/CoreLibrary.iml" filepath="$PROJECT_DIR$/CoreLibrary/CoreLibrary.iml" />
     </modules>
   </component>
 </project>

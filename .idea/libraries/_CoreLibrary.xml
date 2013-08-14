@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name=":CoreLibrary">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Android_CoreSDK/:CoreLibrary" />
+      <root url="file://$PROJECT_DIR$/Android_CoreSDK/:CoreLibrary" />
+      <root url="file://$PROJECT_DIR$/Android_CoreSDK/:CoreLibrary" />
+      <root url="file://$PROJECT_DIR$/Android_CoreSDK/:CoreLibrary" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

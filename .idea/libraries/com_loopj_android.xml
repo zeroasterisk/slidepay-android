@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.loopj.android">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/CoreLibrary/com.loopj.android.http" />
+      <root url="file://$PROJECT_DIR$/CoreLibrary/com.loopj.android.http" />
+      <root url="file://$PROJECT_DIR$/CoreLibrary/com.loopj.android.http" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
