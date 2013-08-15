@@ -7,13 +7,15 @@ import com.slidepay.resthandler.*;
 
 public class MainActivity extends Activity {
 
+    LoginHandler mHandler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        RestHandler handler = new RestHandler();
+        mHandler = new LoginHandler("brent@getcube.com","p@ssw0rd");
+        mHandler.login();
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -13,22 +13,25 @@ public class RestHandler {
     }
     protected static String mEndpoint;
     protected static String mToken;
-    protected String TAG = "RestHandler";
+    protected String TAG = "SP_RestHandler";
     protected AsyncHttpClient mClient;
     protected String mResource;
     protected RequestMethod mRequestMethod;
+    private AsyncHttpResponseHandler _mHandler;
 
     public RestHandler(){
         mClient = new AsyncHttpClient();
         mClient.addHeader("x-cube-encoding","application/json");
         mClient.addHeader("Content-Type","application/json");
+        mClient.addHeader("Accept","application/json");
         mRequestMethod = RequestMethod.GET;
     }
 
-    protected void performRequest(AsyncHttpResponseHandler handler){
+    protected void performRequest(JsonHttpResponseHandler handler){
         switch (mRequestMethod){
             case GET:
-                mClient.get(this.getPath(),handler);
+                _mHandler = handler;
+                mClient.get(this.getPath(),null,handler);
                 break;
             case PUT:
                 break;
@@ -46,6 +49,7 @@ public class RestHandler {
             Log.w(TAG,"mResource is null - ignoring it and returning mEndpoint as the full path");
             return mEndpoint;
         }
+        Log.d(TAG,"getPath() = "+mEndpoint+mResource);
         return mEndpoint+mResource;
     }
 
