@@ -38,8 +38,8 @@ public class Order {
     public int net;
     public int paid;
     public int user_master_id;
-    public Date created;
-    public Date last_update;
+    public String created;
+    public String last_update;
 
     public Order(){
 

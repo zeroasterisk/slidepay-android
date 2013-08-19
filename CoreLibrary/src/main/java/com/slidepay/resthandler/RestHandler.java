@@ -17,23 +17,26 @@ public class RestHandler {
     protected AsyncHttpClient mClient;
     protected String mResource;
     protected RequestMethod mRequestMethod;
-    private AsyncHttpResponseHandler _mHandler;
+    protected ResponseHandler mUserHandler;
 
     public RestHandler(){
         mClient = new AsyncHttpClient();
         mClient.addHeader("x-cube-encoding","application/json");
         mClient.addHeader("Content-Type","application/json");
         mClient.addHeader("Accept","application/json");
+        if(mToken != null && !mToken.equals("")){
+            mClient.addHeader("x-cube-token",mToken);
+        }
         mRequestMethod = RequestMethod.GET;
     }
 
     protected void performRequest(JsonHttpResponseHandler handler){
         switch (mRequestMethod){
             case GET:
-                _mHandler = handler;
                 mClient.get(this.getPath(),null,handler);
                 break;
             case PUT:
+//                mClient
                 break;
             case POST:
                 break;

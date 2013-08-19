@@ -6,10 +6,12 @@ import java.util.LinkedList;
  * Created by Alex on 8/14/13.
  */
 public class SearchFilterArray {
-    public static final boolean raw_date = true;
+//    public static final boolean raw_data = true;
+    private boolean raw_data;
     public LinkedList<SearchFilter> sfa;
 
     public SearchFilterArray(){
+        raw_data = true;
     }
 
     public void addFilter(SearchFilter filter){
