@@ -30,7 +30,6 @@ public class LoginHandler extends RestHandler{
     }
 
     /**
-     *
      * @param userHandler An anonymous instance of ResponseHandler that implements onSuccess and on Failure. In onSuccess, the response
      *                    object is an instance of JSONObject. There's not much to read there (the token necessary for future API
      *                    calls has been stored in the RestHandler base class), but you're welcome to peak at it.

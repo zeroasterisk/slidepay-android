@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:baselineAligned="false"
+              android:paddingLeft="5dp"
+              android:paddingRight="30dp">
+
+
+    <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/order_list_item_amount"
+            android:text="@string/order_list_item_dummy_amount"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            />
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/order_list_item_date"
+                android:text="Thur, Aug 22"
+                android:textAlignment="gravity"
+                android:gravity="right"
+                android:layout_gravity="right|center_vertical"/>
+                <!--android:text="@string/order_list_item_dummy_date"-->
+        <TextView
+                android:id="@+id/order_list_item_time"
+                android:text="1:00 AM"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="right"
+                />
+        <!--android:text="@string/order_list_item_dummy_time"-->
+    </LinearLayout>
+
+
+</LinearLayout><!-- From: file:/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/layout/list_item_orders.xml -->
