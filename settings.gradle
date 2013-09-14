@@ -1,1 +1,1 @@
-include ':Android_CoreSDK', ':CoreLibrary'
+include ':Android_CoreSDK', ':CoreLibrary', ':RamblerSupport'

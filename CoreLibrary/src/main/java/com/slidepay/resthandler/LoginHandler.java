@@ -71,7 +71,11 @@ public class LoginHandler extends RestHandler{
                 return;
             }
             String endpoint = response.getString("data");
-            mEndpoint = new String(endpoint);
+            if(endpoint != null){
+                mEndpoint = endpoint;
+            }else{
+                mEndpoint = "";
+            }
             mResource = "login";
             Log.d(TAG,"endpoint obtained and set to "+mEndpoint);
         }catch(JSONException e){
@@ -180,7 +184,6 @@ public class LoginHandler extends RestHandler{
 
     private void configureSessionFromResponse(JSONObject object){
         CurrentSession.getInstance().setSessionFromJSON(object);
-
     }
 
     public String getEmail() {

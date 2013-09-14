@@ -12,9 +12,12 @@
         </activity>
         <activity android:label="@string/title_activity_order_history" android:name="com.slidepay.coresdk.OrderHistoryActivity">
         </activity>
+        <activity android:label="@string/title_activity_payment" android:name="com.slidepay.coresdk.PaymentActivity">
+        </activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
 </manifest>

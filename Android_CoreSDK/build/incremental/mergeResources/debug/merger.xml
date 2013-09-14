@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger>
 
+    <dataSet config="Android_CoreSDKProjectRamblerSupportUnspecified.aar" >
+        <source path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/values/values.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <string name="app_name" >RamblerSupport
+                </string>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/values-v11/values.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/values-v14/values.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+    </dataSet>
     <dataSet config="Android_CoreSDKProjectCoreLibraryUnspecified.aar" >
         <source path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res" >
             <file
@@ -90,13 +156,43 @@
                 qualifiers=""
                 type="layout" />
             <file
+                name="activity_order_history"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/layout/activity_order_history.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_payment"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/layout/activity_payment.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="fragment_login"
                 path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/layout/fragment_login.xml"
                 qualifiers=""
                 type="layout" />
             <file
+                name="fragment_order_list"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/layout/fragment_order_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_payment"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/layout/fragment_payment.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_orders"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/layout/list_item_orders.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="main"
                 path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="order_history"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/menu/order_history.xml"
                 qualifiers=""
                 type="menu" />
             <file
@@ -122,7 +218,13 @@
                 </string>
                 <string name="order_list_item_dummy_amount" >$23.45 (Refunded)
                 </string>
+                <string name="payment_test_success" >Success!.
+                </string>
+                <string name="payment_test_info" >Swipe to charge and refund a $1.00 transaction.
+                </string>
                 <string name="order_list_item_dummy_time" >1:00 AM
+                </string>
+                <string name="title_activity_payment" >Payments
                 </string>
                 <string name="login_email_hint" >Enter your email
                 </string>
@@ -130,9 +232,9 @@
                 </string>
                 <string name="login_password_label" >Password
                 </string>
-                <string name="login_email_label" >Email
-                </string>
                 <string name="app_name" >Android_CoreSDK
+                </string>
+                <string name="login_email_label" >Email
                 </string>
                 <string name="hello_world" >Hello world!
                 </string>
@@ -189,26 +291,6 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
-            <file
-                name="fragment_order_list"
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/layout/fragment_order_list.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_order_history"
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/layout/activity_order_history.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="list_item_orders"
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/layout/list_item_orders.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="order_history"
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/menu/order_history.xml"
-                qualifiers=""
-                type="menu" />
         </source>
         <source path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/res/rs/debug" />
     </dataSet>

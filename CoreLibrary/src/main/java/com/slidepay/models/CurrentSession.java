@@ -29,30 +29,6 @@ public class CurrentSession {
     protected int    user_master_id;
     protected int    company_id;
     protected int    location_id;
-    /*
-    {
-     "company_id": int,
-     "is_comgr": boolean,
-     "location_name": string,
-     "is_clerk": boolean,
-     "random": ?,
-     "password": null,
-     "endpoint": "https://api.getcube.com:65532",
-     "is_locmgr": boolean,
-     "location_id": int,
-     "server_name": string,
-     "first_name": string,
-     "timezone": "",
-     "ip_address": string,
-     "is_admin": boolean,
-     "company_name": string,
-     "email": string,
-     "created": String (UTC format - "yyyy-MMM-dd'T'HH:mm:ss",
-     "last_name": String,
-     "is_isv": boolean,
-     "user_master_id": int
-     }
-     */
 
     public static CurrentSession getInstance() {
         return ourInstance;
@@ -87,6 +63,7 @@ public class CurrentSession {
         this.user_master_id = session.user_master_id;
         this.company_id = session.company_id;
         this.location_id = session.location_id;
+
         return true;
     }
 

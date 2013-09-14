@@ -1,7 +1,9 @@
 package com.slidepay.coresdk;
 
 import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -96,25 +98,41 @@ public class LoginFragment extends Fragment{
         mLoginHandler.getUserDetails(new ResponseHandler() {
             @Override
             public void onSuccess(Object response) {
-                Log.d(TAG,"token detail success!");
-                Log.d(TAG,"current session: "+ CurrentSession.getInstance().toString());
+                Log.d(TAG, "token detail success!");
+                Log.d(TAG, "current session: " + CurrentSession.getInstance().toString());
                 //grab some orders
                 loginSuccess();
             }
+
             @Override
             public void onFailure(Throwable e, JSONObject response, int errorCode, String errorDescription) {
-                Log.d(TAG,"token detail failure!");
+                Log.d(TAG, "token detail failure!");
                 loginFailed("Login failed.");
             }
         });
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if(mSubmit != null){
+            mSubmit.setEnabled(true);
+        }else{
+            Log.w(TAG,"onResume() - mSubmit is null");
+        }
     }
 
     public void loginFailed(String response){
         mDialog.dismiss();
 
     }
-    public void loginSuccess(){
+    public void loginSuccess(){ //disable the login button and transition to the next screen
+        mSubmit.setEnabled(false);
         mDialog.setProgress(mDialog.getMax());
+        mDialog.dismiss();
+        Log.d(TAG,"loginSuccess - transitioning");
+        Intent intent = new Intent(getActivity(),PaymentActivity.class);
+        startActivity(intent);
     }
 
 }

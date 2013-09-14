@@ -20,4 +20,9 @@
     <string name="order_list_item_dummy_time">1:00 AM</string>
     <string name="order_list_item_dummy_amount">$23.45 (Refunded)</string>
 
+    <!-- Payment Fragment -->
+    <string name="title_activity_payment">Payments</string>
+    <string name="payment_test_info">Swipe to charge and refund a $1.00 transaction.</string>
+    <string name="payment_test_success">Success!.</string>
+
 </resources>

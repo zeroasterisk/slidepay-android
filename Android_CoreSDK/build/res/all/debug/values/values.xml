@@ -18,7 +18,10 @@
     <string name="order_list_item_dummy_amount">$23.45 (Refunded)</string>
     <string name="order_list_item_dummy_date">Thu, Aug 22</string>
     <string name="order_list_item_dummy_time">1:00 AM</string>
+    <string name="payment_test_info">Swipe to charge and refund a $1.00 transaction.</string>
+    <string name="payment_test_success">Success!.</string>
     <string name="title_activity_order_history">Order History</string>
+    <string name="title_activity_payment">Payments</string>
     <!-- From: file:/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

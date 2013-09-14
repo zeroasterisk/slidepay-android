@@ -1,5 +1,6 @@
 package com.slidepay.resthandler;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
@@ -9,7 +10,7 @@ public abstract class ResponseHandler {
     /**
      * The *Handler classes in the resthandler package all make remote requests. When invoking the
      * various methods in these classes, you usually supply an anonymous instance of this class (with
-     * onSuccess and onFailure overriden) to receive the results of those requests.
+     * onSuccess and onFailure overriden) to receive the results.
      */
 
     /**
@@ -31,8 +32,30 @@ public abstract class ResponseHandler {
 
 
     /**
+     * Checks the response the 'success' flag; if present and '1' then we return true. If null or '0' then invokes onFailure() and returns false.
+     * @param response the network response
+     * @return
+     */
+    protected boolean checkResponseForSuccessFlag(JSONObject response){
+        boolean success; //default initializer gives false
+        try{
+            success = response.getBoolean("success");
+        }catch(JSONException e){
+            onFailure(e,response,0,"");
+            return false;
+        }
+        if(success == false){
+            //extract the error code and get the error message
+
+            //call onFailure
+            onFailure(null,response,0,"");
+        }
+        return success;
+    }
+
+    /**
      * Error Codes:
-     *
+     * COMING SOON!
      */
 
 }

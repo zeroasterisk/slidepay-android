@@ -1,0 +1,29 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.5.+'
+    }
+}
+apply plugin: 'android-library'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "17.0.0"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 17
+    }
+}
+
+dependencies {
+    compile files('libs/readerapi-android-2.2.0.jar');
+    compile 'com.android.support:support-v4:13.0.+'
+//    compile fileTree(dir: 'libs', include: '*.jar')
+}

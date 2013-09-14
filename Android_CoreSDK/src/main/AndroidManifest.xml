@@ -26,9 +26,14 @@
             android:name="com.slidepay.coresdk.OrderHistoryActivity"
             android:label="@string/title_activity_order_history" >
         </activity>
+        <activity
+            android:name="com.slidepay.coresdk.PaymentActivity"
+            android:label="@string/title_activity_payment">
+        </activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
 </manifest>

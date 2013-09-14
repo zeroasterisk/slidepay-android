@@ -33,7 +33,7 @@ public class OrderHandler extends RestHandler{
 
     SearchFilterArray mSearchParameters;
     LinkedList<SearchFilter> mSFA;
-
+    private int mSummarySearchRange;
     /**
      *
      */
@@ -62,7 +62,6 @@ public class OrderHandler extends RestHandler{
             Type collectionOfOrdersType = new TypeToken<ArrayList<Order>>(){}.getType();
             ArrayList<Order> orders = gson.fromJson(dataField.toString(),collectionOfOrdersType);
             String sanityString = gson.toJson(orders,collectionOfOrdersType);
-
             Log.d(TAG,"orders sanity check: "+sanityString);
             return orders;
         }catch (JSONException e){
@@ -97,7 +96,6 @@ public class OrderHandler extends RestHandler{
      */
 
     /*
-
      */
 
     private Order processOrderDetail(JSONObject topLevelResponse, boolean invokeHandlerOnFailure){
@@ -134,7 +132,7 @@ public class OrderHandler extends RestHandler{
 
 
     /**
-     ** Loads all a summary for each Order that has been created or changed since the reference date.
+     ** Loads a summary for each Order that has been created or changed since the reference date.
      * @param reference - a reference date as measured in epoch time (milliseconds)
      * @param handler - the anonymous callback object used to return the
      * @return
@@ -203,16 +201,17 @@ public class OrderHandler extends RestHandler{
     }
 
     /**
+     * UNIMPLEMENTED!!
      * Performs an order_detail request for each order_master_id in the supplied list. In general,
      * you call this after loading a batch of summaries. For each order_master_id in the list, you get an Order object
      * that has its order_item_entry_list, order_master_item, and payment_list fields populated (in addition to the
-     * Date and primitive fields that were populated in the call to getSummaries).
+     * Date and all the primitive fields that were populated in the call to getSummaries).
      * @param orderMasterIDs A list of order_master_id'd that correspond to the Order's for which you'd like to load details
      */
     public boolean getOrderDetails(List<Integer>orderMasterIDs){
-        resetDetailsRequest();
+//        resetDetailsRequest();
 //        mSFA
-        return true;
+        return false;
     }
 
     /**
@@ -263,7 +262,6 @@ public class OrderHandler extends RestHandler{
                     Log.d(TAG, "orders: " + response.toString());
                     Log.w(TAG, "Unable to parse JSON object", e);
                     mUserHandler.onFailure(e, response, 0, "attempting to retrieve a value from a JSON response threw an exception");
-                    return;
                 }
             }
 
@@ -293,4 +291,15 @@ public class OrderHandler extends RestHandler{
         mSFA.add(omidFilter);
     }
 
+
+    public int getSummarySearchRange() {
+        return mSummarySearchRange;
+    }
+    /**
+     * When peforming a GET order summary request, the summaries returned are those whose modified date is in the range (NOW-summarySearchRange,NOW].
+     * @param summarySearchRange the new value, in seconds, for summarySearchRange,
+     */
+    public void setSummarySearchRange(int summarySearchRange) {
+        mSummarySearchRange = summarySearchRange;
+    }
 }
