@@ -73,31 +73,6 @@ public class OrderHandler extends RestHandler{
             return null;
         }
     }
-
-
-
-
-    /*
-    Order Detail
-    [DataMember] public int? order_master_id { get; set; }
-[DataMember] public order_master order_master { get; set; }
-[DataMember] public customer customer { get; set; }
-[DataMember] public string amount_subtotal { get; set; }
-[DataMember] public string amount_tax { get; set; }
-[DataMember] public string amount_discount { get; set; }
-[DataMember] public string amount_tip { get; set; }
-[DataMember] public string amount_total { get; set; }
-[DataMember] public string amount_paid { get; set; }
-[DataMember] public string amount_refunded { get; set; }
-[DataMember] public int item_count { get; set; }
-[DataMember] public List<order_item_entry> order_item_entry_list { get; set; }
-[DataMember] public List<payment> payment_list { get; set; }
-[DataMember] public List<cloud_object> signature_list { get; set; }
-     */
-
-    /*
-     */
-
     private Order processOrderDetail(JSONObject topLevelResponse, boolean invokeHandlerOnFailure){
         try{
 
@@ -129,7 +104,6 @@ public class OrderHandler extends RestHandler{
         }
         return null;
     }
-
 
     /**
      ** Loads a summary for each Order that has been created or changed since the reference date.
