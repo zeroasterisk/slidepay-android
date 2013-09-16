@@ -19,8 +19,15 @@ public class SwipeListener {
     public ReaderController mReaderController;
     private boolean isListening;
     private SwipeHandler mUserHandler;
+    private String mLastGeneralError;
+
+    public static final int ERROR_GENERAL = 0;
+    public static final int ERROR_DECODE = 1;
+    public static final int ERROR_NO_DEVICE = 2;
+    public static final int ERROR_TIMEOUT = 3;
 
     public SwipeListener(Context context, SwipeHandler handler){
+        mLastGeneralError = null;
         isListening = true;
         mUserHandler = handler;
         mReaderController = new ReaderController(context,new ReaderController.ReaderStateChangedListener() {
@@ -49,13 +56,14 @@ public class SwipeListener {
             @Override
             public void onDecodeError(ReaderController.DecodeResult decodeResult) {
                 Log.w(TAG,"decode error");
-                mUserHandler.swipeFailed();
+                mUserHandler.swipeFailed( ERROR_DECODE );
             }
 
             @Override
             public void onError(String s) {
                 Log.w(TAG,"onError");
-                mUserHandler.swipeFailed();
+                mLastGeneralError = s;
+                mUserHandler.swipeFailed( ERROR_GENERAL );
             }
 
             @Override
@@ -69,13 +77,13 @@ public class SwipeListener {
 
             @Override
             public void onNoDeviceDetected() {
-
+                mUserHandler.swipeFailed( ERROR_NO_DEVICE );
             }
 
             @Override
             public void onTimeout() {
                 Log.w(TAG,"onTimeout");
-                mUserHandler.swipeFailed();
+                mUserHandler.swipeFailed( ERROR_TIMEOUT );
             }
 
             @Override
@@ -109,7 +117,26 @@ public class SwipeListener {
     public boolean isListening() {
         return isListening;
     }
-    public void setListening(boolean listening){
+
+    /**
+     * Flag reader device presence/attached to android device
+     * @return true if
+     * @throws IllegalStateException when reader is already released
+     */
+    public boolean isDevicePresent() throws IllegalStateException {
+        if ( mReaderController == null )
+            throw new IllegalStateException( "Already released reader" );
+        return mReaderController.isDevicePresent();
+    }
+
+    /**
+     * Sets the listening state for the reader
+     * @param listening state
+     * @throws IllegalStateException when reader can not reach new state from current
+     */
+    public void setListening(boolean listening) throws IllegalStateException {
+        if ( mReaderController == null )
+            throw new IllegalStateException( "Already released reader" );
         isListening = listening;
         if(isListening){
             mReaderController.startReader();
@@ -118,8 +145,23 @@ public class SwipeListener {
         }
     }
 
+    /**
+     * Releases the resource of this listener
+     */
+    public void release() {
+        mReaderController.deleteReader();
+        mReaderController = null;
+    }
+    /**
+     * Returns the last general error
+     * @return the error
+     */
+    public String getLastGeneralError() {
+        return mLastGeneralError;
+    }
+
     public abstract interface SwipeHandler{
         public abstract void swipeObtained(Bundle ccBundle);
-        public abstract void swipeFailed();
+        public abstract void swipeFailed( int errorCode );
     }
 }

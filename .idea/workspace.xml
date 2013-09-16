@@ -33,6 +33,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3f1a94e-8170-4260-86ac-563f7c785fc4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/apk/Android_CoreSDK-debug-unaligned.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/MainActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/classes/debug/com/slidepay/coresdk/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/libs/android-async-http-1.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/libs/gson-2.2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res/values-v11/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res/values-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res/values/values.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/AndroidManifest.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/R.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/classes.jar" afterPath="" />
@@ -44,6 +67,16 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/values-v11/values.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/values-v14/values.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/libs/readerapi-android-2.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res/values-v11/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res/values-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res/values/values.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/AndroidManifest.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/R.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/classes.jar" afterPath="" />
@@ -54,25 +87,61 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/values-v11/values.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/values-v14/values.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/values/values.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_CoreSDK/Android_CoreSDK.iml" afterPath="$PROJECT_DIR$/Android_CoreSDK/Android_CoreSDK.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/CoreLibrary.iml" afterPath="$PROJECT_DIR$/CoreLibrary/CoreLibrary.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/LoginFragment.java" afterPath="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/LoginFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/LoginHandler.java" afterPath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/LoginHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/OrderHandler.java" afterPath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/OrderHandler.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/incremental/aidl/debug/dependency.store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/incremental/aidl/debug/inputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/incremental/aidl/debug/outputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/incremental/dex/debug/inputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/incremental/dex/debug/outputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/incremental/mergeAssets/debug/inputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/incremental/mergeAssets/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/incremental/mergeAssets/debug/outputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/incremental/mergeResources/debug/inputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/incremental/mergeResources/debug/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/incremental/mergeResources/debug/outputs.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/libs/Android_CoreSDK-debug.ap_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/libs/Android_CoreSDK-debug.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/manifests/debug/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/layout/activity_order_history.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/layout/activity_payment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/layout/fragment_login.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/layout/fragment_order_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/layout/fragment_payment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/layout/list_item_orders.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/menu/main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/menu/order_history.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/values-v11/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/values-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/source/buildConfig/debug/com/slidepay/coresdk/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/source/r/debug/com/slidepay/corelibrary/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/source/r/debug/com/slidepay/coresdk/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/source/r/debug/com/slidepay/ramblersupport/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/symbols/debug/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/res/all/debug/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/res/all/debug/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/res/all/debug/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/res/all/debug/values-v11/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/res/all/debug/values-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/res/all/debug/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/res/all/release/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/res/all/release/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/res/all/release/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/res/all/release/values-v11/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/res/all/release/values-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/res/all/release/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/source/buildConfig/debug/com/slidepay/corelibrary/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/source/buildConfig/release/com/slidepay/corelibrary/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/source/r/debug/com/slidepay/corelibrary/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreLibrary/build/source/r/release/com/slidepay/corelibrary/R.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentFragment.java" afterPath="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/PaymentHandler.java" afterPath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/PaymentHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/source/r/debug/com/slidepay/coresdk/R.java" afterPath="$PROJECT_DIR$/Android_CoreSDK/build/source/r/debug/com/slidepay/coresdk/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RamblerSupport/RamblerSupport.iml" afterPath="$PROJECT_DIR$/RamblerSupport/RamblerSupport.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/ResponseHandler.java" afterPath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/ResponseHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/RestHandler.java" afterPath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/RestHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_async_http_1_4_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_async_http_1_4_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RamblerSupport/src/main/java/com/slidepay/ramblersupport/SwipeListener.java" afterPath="$PROJECT_DIR$/RamblerSupport/src/main/java/com/slidepay/ramblersupport/SwipeListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/build.gradle" afterPath="$PROJECT_DIR$/CoreLibrary/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RamblerSupport/build.gradle" afterPath="$PROJECT_DIR$/RamblerSupport/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/readerapi_android_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/readerapi_android_2_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_CoreSDK/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Android_CoreSDK/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Android_CoreSDK.iws" />
@@ -142,23 +211,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RestHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/RestHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="5" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding>
-                <element signature="method#RestHandler#0;class#RestHandler#0" expanded="false" />
-                <element signature="method#performRequest#0;class#RestHandler#0" expanded="false" />
-                <element signature="method#getPath#0;class#RestHandler#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ResponseHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/ResponseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="1005">
+            <state line="27" column="92" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
@@ -192,19 +248,27 @@
       <file leaf-file-name="SwipeListener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RamblerSupport/src/main/java/com/slidepay/ramblersupport/SwipeListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="39" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1875">
+            <state line="52" column="51" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="2490">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaymentFragment.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="11" selection-start="350" selection-end="350" vertical-scroll-proportion="0.26986507" vertical-offset="0" max-vertical-offset="667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="91" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.48859936" vertical-offset="0" max-vertical-offset="614">
+            <state line="51" column="48" selection-start="1773" selection-end="1773" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
               <folding>
                 <element signature="method#onCreate#0;class#PaymentFragment#0" expanded="false" />
-                <element signature="method#onCreateView#0;class#PaymentFragment#0" expanded="false" />
                 <element signature="method#performPayment#0;class#PaymentFragment#0" expanded="false" />
                 <element signature="method#presentProcessingDialog#0;class#PaymentFragment#0" expanded="false" />
                 <element signature="method#presentSwipeToast#0;class#PaymentFragment#0" expanded="false" />
@@ -213,15 +277,6 @@
                 <element signature="method#presentCenterToastWithMessage#0;class#PaymentFragment#0" expanded="false" />
                 <element signature="method#presentUpperToastWithMessage#0;class#PaymentFragment#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="g.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/libs/readerapi-android-2.2.0.jar!/net/homeatm/reader/g.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="0" selection-start="2974" selection-end="2974" vertical-scroll-proportion="-12.88" vertical-offset="1013" max-vertical-offset="1425">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1349,10 +1404,8 @@
         <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/Payment.java" />
         <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/Order.java" />
         <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/OrderMaster.java" />
-        <option value="$PROJECT_DIR$/RamblerSupport/src/main/java/com/slidepay/ramblersupport/SwipeListener.java" />
         <option value="$PROJECT_DIR$/Android_CoreSDK/build.gradle" />
         <option value="$PROJECT_DIR$/CoreLibrary/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/RamblerSupport/build.gradle" />
         <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/RestHandler.java" />
@@ -1361,7 +1414,9 @@
         <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/LoginHandler.java" />
         <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/OrderHandler.java" />
         <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/LoginFragment.java" />
+        <option value="$PROJECT_DIR$/RamblerSupport/src/main/java/com/slidepay/ramblersupport/SwipeListener.java" />
         <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentFragment.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -1369,10 +1424,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
+    <option name="x" value="38" />
     <option name="y" value="22" />
     <option name="width" value="1859" />
-    <option name="height" value="998" />
+    <option name="height" value="1051" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1495,6 +1550,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="RamblerSupport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="CoreLibrary" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1599,58 +1672,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android_CoreSDK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android_CoreSDKProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android_CoreSDK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android_CoreSDK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android_CoreSDKProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android_CoreSDK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coresdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -1665,7 +1686,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="editor.preferences.import" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Cube_Android/slidepay_android_sdk" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="HT35ZW915594" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -1871,7 +1892,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="22" width="1859" height="998" extended-state="0" />
+    <frame x="38" y="22" width="1859" height="1051" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1885,13 +1906,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.28586724" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2358804" sideWeight="0.49930555" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28903654" sideWeight="0.49920592" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27301255" sideWeight="0.49920592" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.49970433" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26304466" sideWeight="0.7109634" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26304466" sideWeight="0.7269874" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26024362" sideWeight="0.49861112" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1915,20 +1936,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CoreLibrary/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="354" selection-end="354" vertical-scroll-proportion="0.31502423" vertical-offset="0" max-vertical-offset="619">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Android_CoreSDK/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="24" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
@@ -1965,13 +1972,6 @@
             <element signature="method#performRequest#0;class#RestHandler#0" expanded="false" />
             <element signature="method#getPath#0;class#RestHandler#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/ResponseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="1005">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2025,13 +2025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/libs/readerapi-android-2.2.0.jar!/net/homeatm/reader/g.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="0" selection-start="2974" selection-end="2974" vertical-scroll-proportion="-12.88" vertical-offset="1013" max-vertical-offset="1425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/PaymentHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="24" selection-start="3479" selection-end="3479" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="1515">
@@ -2042,19 +2035,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RamblerSupport/src/main/java/com/slidepay/ramblersupport/SwipeListener.java">
+    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/ResponseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="39" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1875">
+        <state line="27" column="92" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="1005">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="91" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.48859936" vertical-offset="0" max-vertical-offset="614">
+        <state line="51" column="48" selection-start="1773" selection-end="1773" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
           <folding>
             <element signature="method#onCreate#0;class#PaymentFragment#0" expanded="false" />
-            <element signature="method#onCreateView#0;class#PaymentFragment#0" expanded="false" />
             <element signature="method#performPayment#0;class#PaymentFragment#0" expanded="false" />
             <element signature="method#presentProcessingDialog#0;class#PaymentFragment#0" expanded="false" />
             <element signature="method#presentSwipeToast#0;class#PaymentFragment#0" expanded="false" />
@@ -2063,6 +2055,20 @@
             <element signature="method#presentCenterToastWithMessage#0;class#PaymentFragment#0" expanded="false" />
             <element signature="method#presentUpperToastWithMessage#0;class#PaymentFragment#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RamblerSupport/src/main/java/com/slidepay/ramblersupport/SwipeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="51" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="2490">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="11" selection-start="350" selection-end="350" vertical-scroll-proportion="0.26986507" vertical-offset="0" max-vertical-offset="667">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -4,7 +4,7 @@ def versionForLibrary(String library){
 
     def myVersion
     if(library == "CoreLibrary"){
-        myVersion = "0.0.1"
+        myVersion = "1.0.0"
     } else if(library == "RamblerSupport"){
         myVersion = "1.0.0"
     } else{

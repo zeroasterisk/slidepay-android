@@ -53,7 +53,7 @@ public class PaymentFragment extends Fragment{
                 PaymentFragment.this.performPayment(payment);
             }
             @Override
-            public void swipeFailed() {
+            public void swipeFailed(int code) {
                 Log.w(TAG,"swipe failed");
             }
         });
@@ -87,8 +87,8 @@ public class PaymentFragment extends Fragment{
                     public void onSuccess(Object response) {
                         Log.d(TAG,"refund successful");
                         mPaymentDialog.dismiss();
-                        presentRefundToast(true);
                         presentPaymentToast(true);
+                        presentRefundToast(true);
                     }
                     @Override
                     public void onFailure(Throwable e, JSONObject response, int errorCode, String errorDescription) {
@@ -120,6 +120,7 @@ public class PaymentFragment extends Fragment{
             }
         });
     }
+
     private void presentProcessingDialog(){
         mPaymentDialog = new ProgressDialog(getActivity());
         mPaymentDialog.setMessage("Processing payment. Please Wait");
@@ -143,7 +144,7 @@ public class PaymentFragment extends Fragment{
         }else{
             message = "Payment Failed";
         }
-        presentUpperToastWithMessage(message,Toast.LENGTH_LONG);
+        presentUpperToastWithMessage(message,Toast.LENGTH_SHORT);
     }
     private void presentRefundToast(boolean success){
         String message;
@@ -152,7 +153,7 @@ public class PaymentFragment extends Fragment{
         }else{
             message = "Refund Failed";
         }
-        presentCenterToastWithMessage(message,Toast.LENGTH_LONG);
+        presentCenterToastWithMessage(message,Toast.LENGTH_SHORT);
     }
     private void presentCenterToastWithMessage(String string, int duration){
         Toast toast = Toast.makeText(getActivity(),string, duration);

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:id="@+id/paymentContainer">
-
-</FrameLayout><!-- From: file:/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/src/main/res/layout/activity_payment.xml -->
