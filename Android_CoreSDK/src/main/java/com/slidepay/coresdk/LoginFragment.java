@@ -43,8 +43,6 @@ public class LoginFragment extends Fragment{
     @Override public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState){
         Log.w(TAG,"inflate the view for the login fragment");
         View v = inflater.inflate(R.layout.fragment_login,parent,false);
-//        View v = inflater.inflate(R.layout
-//        View v = inflater.inflate(R.layout.fragment_login, parent, false); //we will be adding this view to the parent view, but not through this function.
 
         //handles to all our views
         mEmailField = (EditText)v.findViewById(R.id.login_email);
@@ -65,8 +63,10 @@ public class LoginFragment extends Fragment{
         });
 
         //set debug values for email and password
-        mEmailField.setText(R.string.login_debug_email);
-        mPasswordField.setText(R.string.login_debug_password);
+//        mEmailField.setText(R.string.login_debug_email);
+//        mPasswordField.setText(R.string.login_debug_password);
+
+
         //
 
         return v;

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger>
 
-    <dataSet config="Android_CoreSDKProjectRamblerSupportUnspecified.aar" >
-        <source path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res" >
+    <dataSet config="Android_CoreSDKProjectRamblerSupport100.aar" >
+        <source path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res" >
             <file
                 name="ic_launcher"
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/drawable-mdpi/ic_launcher.png"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/values/values.xml"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res/values/values.xml"
                 qualifiers="" >
 
                 <style
@@ -44,7 +44,7 @@
                 </style>
             </file>
             <file
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/values-v11/values.xml"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res/values-v11/values.xml"
                 qualifiers="v11" >
 
                 <style
@@ -55,7 +55,7 @@
                 </style>
             </file>
             <file
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/values-v14/values.xml"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/res/values-v14/values.xml"
                 qualifiers="v14" >
 
                 <style
@@ -67,25 +67,25 @@
             </file>
         </source>
     </dataSet>
-    <dataSet config="Android_CoreSDKProjectCoreLibraryUnspecified.aar" >
-        <source path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res" >
+    <dataSet config="Android_CoreSDKProjectCoreLibrary001.aar" >
+        <source path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res" >
             <file
                 name="ic_launcher"
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/drawable-mdpi/ic_launcher.png"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/values/values.xml"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res/values/values.xml"
                 qualifiers="" >
 
                 <style
@@ -110,7 +110,7 @@
                 </style>
             </file>
             <file
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/values-v11/values.xml"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res/values-v11/values.xml"
                 qualifiers="v11" >
 
                 <style
@@ -121,7 +121,7 @@
                 </style>
             </file>
             <file
-                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/values-v14/values.xml"
+                path="/Users/Alex/AndroidStudioProjects/Android_CoreSDKProject/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/res/values-v14/values.xml"
                 qualifiers="v14" >
 
                 <style
@@ -214,8 +214,6 @@
                 </string>
                 <string name="login_submit_button" >Submit
                 </string>
-                <string name="login_debug_password" >qwerty
-                </string>
                 <string name="order_list_item_dummy_amount" >$23.45 (Refunded)
                 </string>
                 <string name="payment_test_success" >Success!.
@@ -232,13 +230,11 @@
                 </string>
                 <string name="login_password_label" >Password
                 </string>
-                <string name="app_name" >Android_CoreSDK
-                </string>
                 <string name="login_email_label" >Email
                 </string>
-                <string name="hello_world" >Hello world!
+                <string name="app_name" >Android_CoreSDK
                 </string>
-                <string name="login_debug_email" >alex.trashcan@gmail.com
+                <string name="hello_world" >Hello world!
                 </string>
             </file>
             <file

@@ -7,6 +7,7 @@ import org.json.JSONObject;
  * Created by Alex on 8/15/13.
  */
 public abstract class ResponseHandler {
+
     /**
      * The *Handler classes in the resthandler package all make remote requests. When invoking the
      * various methods in these classes, you usually supply an anonymous instance of this class (with

@@ -29,7 +29,6 @@ public class RestHandler {
         }
         mRequestMethod = RequestMethod.GET;
     }
-
     protected void performRequest(JsonHttpResponseHandler handler){
         switch (mRequestMethod){
             case GET:
@@ -42,7 +41,6 @@ public class RestHandler {
                 break;
         }
     }
-
     protected String getPath(){
         if(mEndpoint == null){
             Log.w(TAG,"mEndpoint is null - can't get path. returning the empty string");

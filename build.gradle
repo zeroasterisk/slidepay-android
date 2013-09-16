@@ -1,1 +1,14 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+def versionForLibrary(String library){
+
+    def myVersion
+    if(library == "CoreLibrary"){
+        myVersion = "0.0.1"
+    } else if(library == "RamblerSupport"){
+        myVersion = "1.0.0"
+    } else{
+        myVersion = "0.0.0"
+    }
+    myVersion
+}

@@ -60,7 +60,6 @@ public class LoginHandler extends RestHandler{
         });
         return true;
     }
-
     protected void processSupervisorResponse(JSONObject response){
         try{
             boolean success = response.getBoolean("success");
@@ -157,8 +156,6 @@ public class LoginHandler extends RestHandler{
                 try {
                     boolean success = response.getBoolean("success");
                     if (!success) {
-                        //shit out a warning to the handler
-                        Log.w(TAG, "success is false in GET token/detail response" + response);
                         mUserHandler.onFailure(null, response, 0, "request for token detail returned success = false");
                         return;
                     }
@@ -181,7 +178,6 @@ public class LoginHandler extends RestHandler{
 
         return  true;
     }
-
     private void configureSessionFromResponse(JSONObject object){
         CurrentSession.getInstance().setSessionFromJSON(object);
     }

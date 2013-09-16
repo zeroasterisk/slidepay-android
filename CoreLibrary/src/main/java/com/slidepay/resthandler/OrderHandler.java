@@ -33,7 +33,7 @@ public class OrderHandler extends RestHandler{
 
     SearchFilterArray mSearchParameters;
     LinkedList<SearchFilter> mSFA;
-    private int mSummarySearchRange;
+    int mSummarySearchRange;
     /**
      *
      */
@@ -43,7 +43,7 @@ public class OrderHandler extends RestHandler{
     }
 
     /**
-     * Load all summaries for all Orders that were created or changed in the last month. An order summary is an Order
+     * Load all summaries for all Orders that were created or changed in the last 120 days. An order summary is an Order
      * object that does not have its collection fields populated.
      */
     public boolean getSummaries(ResponseHandler handler){
@@ -51,58 +51,6 @@ public class OrderHandler extends RestHandler{
         mUserHandler = handler;
         long referenceDate = System.currentTimeMillis()-(60*60*60*24*2*1000);
         return getSummariesSinceReferenceDate(referenceDate,handler);
-    }
-
-    private ArrayList<Order>processOrderSummaries(JSONObject topLevelResponse, boolean invokeHandlerOnFailure){
-        try{
-            Log.d(TAG,"trying to process the order summaries");
-            JSONObject dataField = topLevelResponse.getJSONObject("data");
-            JSONArray summaryList = dataField.getJSONArray("order_summary_list");
-            Gson gson = new Gson();
-            Type collectionOfOrdersType = new TypeToken<ArrayList<Order>>(){}.getType();
-            ArrayList<Order> orders = gson.fromJson(dataField.toString(),collectionOfOrdersType);
-            String sanityString = gson.toJson(orders,collectionOfOrdersType);
-            Log.d(TAG,"orders sanity check: "+sanityString);
-            return orders;
-        }catch (JSONException e){
-            Log.e(TAG,"topLevelResponse: "+topLevelResponse.toString());
-            Log.e(TAG, "JSON exception in processOrderSummaries", e);
-            if(invokeHandlerOnFailure){
-                mUserHandler.onFailure(e,topLevelResponse,0,"couldn't retrieve data field from JSON response.");
-            }
-            return null;
-        }
-    }
-    private Order processOrderDetail(JSONObject topLevelResponse, boolean invokeHandlerOnFailure){
-        try{
-
-            Log.d(TAG,"trying to process the order summaries");
-            JSONObject dataField = topLevelResponse.getJSONObject("data");
-            Log.d(TAG,"dataField: "+dataField);
-            JSONArray detailList = dataField.getJSONArray("order_detail_report_detail");
-            Log.d(TAG,"summaryList: "+detailList);
-            if(detailList.length() < 1){
-                return null;
-            }
-            JSONObject detailJSON = detailList.getJSONObject(0);
-            Log.d(TAG,"detail: "+detailJSON);
-            Order order = new Order();
-//            order.net = detailJSON.getDouble("amount_")
-            order.paid = detailJSON.getDouble("amount_paid");
-            order.order_master_id = detailJSON.getInt("order_master_id");
-            order.num_items = detailJSON.getInt("item_count");
-
-
-
-        }catch (JSONException e){
-            Log.e(TAG,"topLevelResponse: "+topLevelResponse.toString());
-            Log.e(TAG, "JSON exception in processOrderDetail", e);
-            if(invokeHandlerOnFailure){
-                mUserHandler.onFailure(e,topLevelResponse,0,"couldn't retrieve data field from JSON response.");
-            }
-            return null;
-        }
-        return null;
     }
 
     /**
@@ -116,13 +64,8 @@ public class OrderHandler extends RestHandler{
         mUserHandler = handler;
         Date date = new Date(reference);
         SearchFilter filter = mSearchParameters.sfa.getFirst();
-//        Date date = new Date(System.currentTimeMillis()-(60*60*60*24*2*1000));
-//        GregorianCalendar gcal = new GregorianCalendar();
-//        gcal.setTime(date);
-//        gcal.roll(Calendar.DAY_OF_YEAR, -2); //roll back N days //this will break on the first day of the year
         SimpleDateFormat dateFormatGmt = new SimpleDateFormat("yyyy-MMM-dd HH:mm:ss");
         dateFormatGmt.setTimeZone(TimeZone.getTimeZone("GMT"));
-        //        String time = dateFormatGmt.format(gcal.getTime());
         String time = dateFormatGmt.format(date);
         Log.d(TAG,"Searching for summaries created since "+time);
         filter.value = time;
@@ -183,8 +126,6 @@ public class OrderHandler extends RestHandler{
      * @param orderMasterIDs A list of order_master_id'd that correspond to the Order's for which you'd like to load details
      */
     public boolean getOrderDetails(List<Integer>orderMasterIDs){
-//        resetDetailsRequest();
-//        mSFA
         return false;
     }
 
@@ -250,6 +191,58 @@ public class OrderHandler extends RestHandler{
         return true;
     }
 
+
+    private ArrayList<Order>processOrderSummaries(JSONObject topLevelResponse, boolean invokeHandlerOnFailure){
+        try{
+            Log.d(TAG,"trying to process the order summaries");
+            JSONObject dataField = topLevelResponse.getJSONObject("data");
+            JSONArray summaryList = dataField.getJSONArray("order_summary_list");
+            Gson gson = new Gson();
+            Type collectionOfOrdersType = new TypeToken<ArrayList<Order>>(){}.getType();
+            ArrayList<Order> orders = gson.fromJson(dataField.toString(),collectionOfOrdersType);
+            String sanityString = gson.toJson(orders,collectionOfOrdersType);
+            Log.d(TAG,"orders sanity check: "+sanityString);
+            return orders;
+        }catch (JSONException e){
+            Log.e(TAG,"topLevelResponse: "+topLevelResponse.toString());
+            Log.e(TAG, "JSON exception in processOrderSummaries", e);
+            if(invokeHandlerOnFailure){
+                mUserHandler.onFailure(e,topLevelResponse,0,"couldn't retrieve data field from JSON response.");
+            }
+            return null;
+        }
+    }
+    private Order processOrderDetail(JSONObject topLevelResponse, boolean invokeHandlerOnFailure){
+        try{
+
+            Log.d(TAG,"trying to process the order summaries");
+            JSONObject dataField = topLevelResponse.getJSONObject("data");
+            Log.d(TAG,"dataField: "+dataField);
+            JSONArray detailList = dataField.getJSONArray("order_detail_report_detail");
+            Log.d(TAG,"summaryList: "+detailList);
+            if(detailList.length() < 1){
+                return null;
+            }
+            JSONObject detailJSON = detailList.getJSONObject(0);
+            Log.d(TAG,"detail: "+detailJSON);
+            Order order = new Order();
+//            order.net = detailJSON.getDouble("amount_")
+            order.paid = detailJSON.getDouble("amount_paid");
+            order.order_master_id = detailJSON.getInt("order_master_id");
+            order.num_items = detailJSON.getInt("item_count");
+
+
+
+        }catch (JSONException e){
+            Log.e(TAG,"topLevelResponse: "+topLevelResponse.toString());
+            Log.e(TAG, "JSON exception in processOrderDetail", e);
+            if(invokeHandlerOnFailure){
+                mUserHandler.onFailure(e,topLevelResponse,0,"couldn't retrieve data field from JSON response.");
+            }
+            return null;
+        }
+        return null;
+    }
     private void resetSummaryRequest(){
         mSearchParameters = new SearchFilterArray();
         SearchFilter dateFilter = new SearchFilter();
@@ -265,15 +258,14 @@ public class OrderHandler extends RestHandler{
         mSFA.add(omidFilter);
     }
 
-
-    public int getSummarySearchRange() {
-        return mSummarySearchRange;
-    }
     /**
      * When peforming a GET order summary request, the summaries returned are those whose modified date is in the range (NOW-summarySearchRange,NOW].
      * @param summarySearchRange the new value, in seconds, for summarySearchRange,
      */
     public void setSummarySearchRange(int summarySearchRange) {
         mSummarySearchRange = summarySearchRange;
+    }
+    public int getSummarySearchRange() {
+        return mSummarySearchRange;
     }
 }

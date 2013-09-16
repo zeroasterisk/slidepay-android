@@ -19,11 +19,20 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 17
+        version getLibraryVersion()
+        versionName getLibraryVersion()
     }
+}
+
+def getLibraryVersion(){
+    versionForLibrary("$module.name")
+}
+
+task printVersion << {
+    println "$module.name v"+getLibraryVersion()
 }
 
 dependencies {
     compile files('libs/readerapi-android-2.2.0.jar');
     compile 'com.android.support:support-v4:13.0.+'
-//    compile fileTree(dir: 'libs', include: '*.jar')
 }

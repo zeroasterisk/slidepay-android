@@ -11,8 +11,6 @@
     <string name="login_email_label">Email</string>
     <string name="login_email_hint">Enter your email</string>
     <string name="login_submit_button">Submit</string>
-    <string name="login_debug_email">alex.trashcan@gmail.com</string>
-    <string name="login_debug_password">qwerty</string>
 
     <!-- Orders Fragment -->
     <string name="title_activity_order_history">Order History</string>

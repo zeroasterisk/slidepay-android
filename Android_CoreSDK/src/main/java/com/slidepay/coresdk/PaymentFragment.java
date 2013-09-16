@@ -55,7 +55,6 @@ public class PaymentFragment extends Fragment{
             @Override
             public void swipeFailed() {
                 Log.w(TAG,"swipe failed");
-
             }
         });
         mSwipeListener.setListening(true);
@@ -65,7 +64,7 @@ public class PaymentFragment extends Fragment{
 
     /**
      * When a card is swiped, this class makes and refunds a $1.00 payment.
-     * @param payment a payment object!
+     * @param payment a payment object! See that class for details (use the create methods)
      */
     private void performPayment(Payment payment){
         payment.setNotes("android test payment");
@@ -89,6 +88,7 @@ public class PaymentFragment extends Fragment{
                         Log.d(TAG,"refund successful");
                         mPaymentDialog.dismiss();
                         presentRefundToast(true);
+                        presentPaymentToast(true);
                     }
                     @Override
                     public void onFailure(Throwable e, JSONObject response, int errorCode, String errorDescription) {
@@ -120,7 +120,6 @@ public class PaymentFragment extends Fragment{
             }
         });
     }
-
     private void presentProcessingDialog(){
         mPaymentDialog = new ProgressDialog(getActivity());
         mPaymentDialog.setMessage("Processing payment. Please Wait");
@@ -144,7 +143,7 @@ public class PaymentFragment extends Fragment{
         }else{
             message = "Payment Failed";
         }
-        presentCenterToastWithMessage(message,Toast.LENGTH_LONG);
+        presentUpperToastWithMessage(message,Toast.LENGTH_LONG);
     }
     private void presentRefundToast(boolean success){
         String message;
@@ -157,9 +156,13 @@ public class PaymentFragment extends Fragment{
     }
     private void presentCenterToastWithMessage(String string, int duration){
         Toast toast = Toast.makeText(getActivity(),string, duration);
-        toast.setGravity(Gravity.CENTER,0,50);
+        toast.setGravity(Gravity.CENTER,0,200);
         toast.show();
     }
-
+    private void presentUpperToastWithMessage(String string, int duration){
+        Toast toast = Toast.makeText(getActivity(),string, duration);
+        toast.setGravity(Gravity.CENTER,0,300);
+        toast.show();
+    }
 
 }

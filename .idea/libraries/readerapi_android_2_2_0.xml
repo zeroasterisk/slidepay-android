@@ -1,8 +1,7 @@
 <component name="libraryTable">
   <library name="readerapi-android-2.2.0">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/libs/readerapi-android-2.2.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/RamblerSupport/libs/readerapi-android-2.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/libs/readerapi-android-2.2.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

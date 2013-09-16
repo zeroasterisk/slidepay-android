@@ -33,9 +33,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3f1a94e-8170-4260-86ac-563f7c785fc4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/Order.java" afterPath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/Order.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/libs/android-async-http-1.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/libs/gson-2.2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/values-v11/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/values-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/res/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/libs/readerapi-android-2.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/values-v11/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/values-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupportUnspecified.aar/res/values/values.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_CoreSDK/Android_CoreSDK.iml" afterPath="$PROJECT_DIR$/Android_CoreSDK/Android_CoreSDK.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/CoreLibrary.iml" afterPath="$PROJECT_DIR$/CoreLibrary/CoreLibrary.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/LoginFragment.java" afterPath="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/LoginFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/LoginHandler.java" afterPath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/LoginHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/OrderHandler.java" afterPath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/OrderHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/OrderMaster.java" afterPath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/OrderMaster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentFragment.java" afterPath="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/PaymentHandler.java" afterPath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/PaymentHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/source/r/debug/com/slidepay/coresdk/R.java" afterPath="$PROJECT_DIR$/Android_CoreSDK/build/source/r/debug/com/slidepay/coresdk/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RamblerSupport/RamblerSupport.iml" afterPath="$PROJECT_DIR$/RamblerSupport/RamblerSupport.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/ResponseHandler.java" afterPath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/ResponseHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/RestHandler.java" afterPath="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/RestHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_async_http_1_4_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_async_http_1_4_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreLibrary/build.gradle" afterPath="$PROJECT_DIR$/CoreLibrary/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RamblerSupport/build.gradle" afterPath="$PROJECT_DIR$/RamblerSupport/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/readerapi_android_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/readerapi_android_2_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_CoreSDK/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Android_CoreSDK/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Android_CoreSDK/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Android_CoreSDK.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,6 +96,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -94,7 +133,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -104,77 +142,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OrderHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/OrderHandler.java">
+      <file leaf-file-name="RestHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/RestHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="5" selection-start="3939" selection-end="3939" vertical-scroll-proportion="0.0" vertical-offset="698" max-vertical-offset="1440">
+            <state line="30" column="5" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getSummaries#0;class#OrderHandler#0" expanded="false" />
-                <element signature="method#processOrderSummaries#0;class#OrderHandler#0" expanded="false" />
-                <element signature="method#processOrderDetail#0;class#OrderHandler#0" expanded="false" />
-                <element signature="method#getSummariesSinceReferenceDate#0;class#OrderHandler#0" expanded="false" />
-                <element signature="method#getOrderDetails#0;class#OrderHandler#0" expanded="false" />
-                <element signature="method#getOrderDetailForOMID#0;class#OrderHandler#0" expanded="false" />
-                <element signature="method#resetSummaryRequest#0;class#OrderHandler#0" expanded="false" />
-                <element signature="method#resetDetailsRequest#0;class#OrderHandler#0" expanded="false" />
-                <element signature="method#getSummarySearchRange#0;class#OrderHandler#0" expanded="false" />
-                <element signature="method#setSummarySearchRange#0;class#OrderHandler#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="0" selection-end="259" vertical-scroll-proportion="0.51339287" vertical-offset="0" max-vertical-offset="672">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaymentHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/PaymentHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="75" selection-start="1633" selection-end="1633" vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="915">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#PaymentHandler#0;class#PaymentHandler#0" expanded="false" />
-                <element signature="method#makeSimplePayment#0;class#PaymentHandler#0" expanded="false" />
-                <element signature="class#1767:2062" expanded="false" />
-                <element signature="method#refund#0;class#PaymentHandler#0" expanded="false" />
-                <element signature="class#4537:4832" expanded="false" />
-                <element signature="method#refund#1;class#PaymentHandler#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Payment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/Payment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="14" selection-start="2781" selection-end="2781" vertical-scroll-proportion="-9.8" vertical-offset="325" max-vertical-offset="900">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#create#0;class#Payment#0" expanded="false" />
-                <element signature="method#create#1;class#Payment#0" expanded="false" />
-                <element signature="method#typeFromCCNumber#0;class#Payment#0" expanded="false" />
-                <element signature="method#setNotes#0;class#Payment#0" expanded="false" />
-                <element signature="method#getNotes#0;class#Payment#0" expanded="false" />
-                <element signature="method#setAmount#0;class#Payment#0" expanded="false" />
-                <element signature="method#getAmount#0;class#Payment#0" expanded="false" />
-                <element signature="method#asJson#0;class#Payment#0" expanded="false" />
-                <element signature="method#getLatitude#0;class#Payment#0" expanded="false" />
-                <element signature="method#setLatitude#0;class#Payment#0" expanded="false" />
-                <element signature="method#getLongitude#0;class#Payment#0" expanded="false" />
-                <element signature="method#setLongitude#0;class#Payment#0" expanded="false" />
-                <element signature="method#getPaymentID#0;class#Payment#0" expanded="false" />
-                <element signature="method#setPaymentID#0;class#Payment#0" expanded="false" />
-                <element signature="method#getOrderMasterID#0;class#Payment#0" expanded="false" />
-                <element signature="method#setOrderMasterID#0;class#Payment#0" expanded="false" />
-                <element signature="class#SimpleKeyedPayment#0" expanded="false" />
-                <element signature="class#SimpleSwipedPayment#0" expanded="false" />
+                <element signature="method#RestHandler#0;class#RestHandler#0" expanded="false" />
+                <element signature="method#performRequest#0;class#RestHandler#0" expanded="false" />
+                <element signature="method#getPath#0;class#RestHandler#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -183,68 +158,115 @@
       <file leaf-file-name="ResponseHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/ResponseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="780">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#checkResponseForSuccessFlag#0;class#ResponseHandler#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="6" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="840">
-              <folding>
-                <element signature="method#updateWithOrderDetails#0;class#Order#0" expanded="false" />
-                <element signature="method#toString#0;class#Order#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/RestHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="9" selection-start="1613" selection-end="1613" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="615">
-              <folding>
-                <element signature="class#RequestMethod#0;class#RestHandler#0" expanded="false" />
-                <element signature="method#RestHandler#0;class#RestHandler#0" expanded="false" />
-                <element signature="method#performRequest#0;class#RestHandler#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderItem.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/OrderItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
+            <state line="15" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrentSession.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/CurrentSession.java">
+      <file leaf-file-name="PaymentHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/PaymentHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="615">
+            <state line="80" column="24" selection-start="3479" selection-end="3479" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="1515">
               <folding>
-                <element signature="method#getInstance#0;class#CurrentSession#0" expanded="false" />
-                <element signature="method#CurrentSession#0;class#CurrentSession#0" expanded="false" />
-                <element signature="method#setSessionFromJSON#0;class#CurrentSession#0" expanded="false" />
-                <element signature="method#toString#0;class#CurrentSession#0" expanded="false" />
+                <element signature="class#1765:2060" expanded="false" />
+                <element signature="method#refund#0;class#PaymentHandler#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderMaster.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/OrderMaster.java">
+      <file leaf-file-name="LoginFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/LoginFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="45" column="0" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+              <folding>
+                <element signature="method#login#0;class#LoginFragment#0" expanded="false" />
+                <element signature="method#getTokenDetails#0;class#LoginFragment#0" expanded="false" />
+                <element signature="method#onResume#0;class#LoginFragment#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwipeListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RamblerSupport/src/main/java/com/slidepay/ramblersupport/SwipeListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="39" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1875">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentFragment.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="91" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.48859936" vertical-offset="0" max-vertical-offset="614">
+              <folding>
+                <element signature="method#onCreate#0;class#PaymentFragment#0" expanded="false" />
+                <element signature="method#onCreateView#0;class#PaymentFragment#0" expanded="false" />
+                <element signature="method#performPayment#0;class#PaymentFragment#0" expanded="false" />
+                <element signature="method#presentProcessingDialog#0;class#PaymentFragment#0" expanded="false" />
+                <element signature="method#presentSwipeToast#0;class#PaymentFragment#0" expanded="false" />
+                <element signature="method#presentPaymentToast#0;class#PaymentFragment#0" expanded="false" />
+                <element signature="method#presentRefundToast#0;class#PaymentFragment#0" expanded="false" />
+                <element signature="method#presentCenterToastWithMessage#0;class#PaymentFragment#0" expanded="false" />
+                <element signature="method#presentUpperToastWithMessage#0;class#PaymentFragment#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="g.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/libs/readerapi-android-2.2.0.jar!/net/homeatm/reader/g.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="0" selection-start="2974" selection-end="2974" vertical-scroll-proportion="-12.88" vertical-offset="1013" max-vertical-offset="1425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thread.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/java/lang/Thread.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="148" column="0" selection-start="5233" selection-end="5233" vertical-scroll-proportion="0.0" vertical-offset="1858" max-vertical-offset="2295">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/OrderHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="0" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="990">
+              <folding>
+                <element signature="docComment;method#OrderHandler#0;class#OrderHandler#0" expanded="false" />
+                <element signature="method#OrderHandler#0;class#OrderHandler#0" expanded="false" />
+                <element signature="method#getSummaries#0;class#OrderHandler#0" expanded="false" />
+                <element signature="method#getSummariesSinceReferenceDate#0;class#OrderHandler#0" expanded="false" />
+                <element signature="method#getOrderDetails#0;class#OrderHandler#0" expanded="false" />
+                <element signature="method#getOrderDetailForOMID#0;class#OrderHandler#0" expanded="false" />
+                <element signature="method#processOrderSummaries#0;class#OrderHandler#0" expanded="false" />
+                <element signature="method#processOrderDetail#0;class#OrderHandler#0" expanded="false" />
+                <element signature="method#resetSummaryRequest#0;class#OrderHandler#0" expanded="false" />
+                <element signature="method#resetDetailsRequest#0;class#OrderHandler#0" expanded="false" />
+                <element signature="method#setSummarySearchRange#0;class#OrderHandler#0" expanded="false" />
+                <element signature="method#getSummarySearchRange#0;class#OrderHandler#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/LoginHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="151" column="52" selection-start="5873" selection-end="5873" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+              <folding>
+                <element signature="method#login#0;class#LoginHandler#0" expanded="false" />
+                <element signature="method#processSupervisorResponse#0;class#LoginHandler#0" expanded="false" />
+                <element signature="class#5848:7093" expanded="false" />
+                <element signature="method#configureSessionFromResponse#0;class#LoginHandler#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -383,6 +405,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
+                <option name="name" value="compileLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
                 <option name="name" value="compileRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -438,11 +464,23 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
+                <option name="name" value="generateDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
                 <option name="name" value="generateReleaseBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
+                <option name="name" value="generateReleaseSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
                 <option name="name" value="generateTestBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
+                <option name="name" value="generateTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build" />
@@ -453,6 +491,23 @@
                 <option name="description" value="Installs the Test build for the Debug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
                 <option name="name" value="installTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on all variants." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
+                <option name="name" value="lint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
+                <option name="name" value="lintDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
+                <option name="name" value="lintRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
+                <option name="name" value="lintTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
@@ -491,14 +546,30 @@
                 <option name="name" value="packageTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Android_CoreSDKProject:CoreLibrary:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
-                <option name="name" value="prepareAndroid_CoreSDKProjectCoreLibraryUnspecifiedLibrary" />
+                <option name="name" value="preBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare Android_CoreSDKProject:RamblerSupport:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
-                <option name="name" value="prepareAndroid_CoreSDKProjectRamblerSupportUnspecifiedLibrary" />
+                <option name="name" value="preDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
+                <option name="name" value="preReleaseBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
+                <option name="name" value="preTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare Android_CoreSDKProject:CoreLibrary:0.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
+                <option name="name" value="prepareAndroid_CoreSDKProjectCoreLibrary001Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare Android_CoreSDKProject:RamblerSupport:1.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
+                <option name="name" value="prepareAndroid_CoreSDKProjectRamblerSupport100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Android_CoreSDK" />
@@ -657,6 +728,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="compileLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
                 <option name="name" value="compileRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -690,6 +765,14 @@
                 <option name="name" value="connectedInstrumentTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="copyDebugLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
                 <option name="name" value="deviceCheck" />
@@ -704,16 +787,45 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="generateDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
                 <option name="name" value="generateReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
                 <option name="name" value="generateTestBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="generateTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the Test build for the Debug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
                 <option name="name" value="installTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on all variants." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="lint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="lintDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="lintRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="lintTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
@@ -793,6 +905,22 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="preBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="preDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="preReleaseBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="preTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
                 <option name="name" value="prepareDebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -802,6 +930,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
                 <option name="name" value="prepareTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
+                <option name="name" value="printVersion" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CoreLibrary" />
@@ -938,6 +1070,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="compileLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
                 <option name="name" value="compileRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -971,6 +1107,14 @@
                 <option name="name" value="connectedInstrumentTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="copyDebugLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
                 <option name="name" value="deviceCheck" />
@@ -985,16 +1129,45 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="generateDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
                 <option name="name" value="generateReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
                 <option name="name" value="generateTestBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="generateTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the Test build for the Debug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
                 <option name="name" value="installTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on all variants." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="lint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="lintDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="lintRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="lintTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
@@ -1074,6 +1247,22 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="preBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="preDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="preReleaseBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="preTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
                 <option name="name" value="prepareDebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1083,6 +1272,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
                 <option name="name" value="prepareTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
+                <option name="name" value="printVersion" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/RamblerSupport" />
@@ -1146,29 +1339,29 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1376516942000" />
+        <entry key="$PROJECT_DIR$" value="1379279140000" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/MainActivity.java" />
-        <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/res/layout/activity_payment.xml" />
-        <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/LoginFragment.java" />
-        <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentActivity.java" />
-        <option value="$PROJECT_DIR$/RamblerSupport/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/RamblerSupport/src/main/java/com/slidepay/ramblersupport/SwipeListener.java" />
-        <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/CurrentSession.java" />
-        <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/ResponseHandler.java" />
         <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/Payment.java" />
-        <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/PaymentHandler.java" />
-        <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentFragment.java" />
         <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/Order.java" />
-        <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/OrderHandler.java" />
         <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/OrderMaster.java" />
+        <option value="$PROJECT_DIR$/RamblerSupport/src/main/java/com/slidepay/ramblersupport/SwipeListener.java" />
+        <option value="$PROJECT_DIR$/Android_CoreSDK/build.gradle" />
+        <option value="$PROJECT_DIR$/CoreLibrary/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/RamblerSupport/build.gradle" />
+        <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/RestHandler.java" />
+        <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/ResponseHandler.java" />
+        <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/PaymentHandler.java" />
+        <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/LoginHandler.java" />
+        <option value="$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/OrderHandler.java" />
+        <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/LoginFragment.java" />
+        <option value="$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentFragment.java" />
       </list>
     </option>
   </component>
@@ -1176,10 +1369,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="35" />
-    <option name="width" value="1889" />
-    <option name="height" value="1016" />
+    <option name="x" value="19" />
+    <option name="y" value="22" />
+    <option name="width" value="1859" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1207,7 +1400,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1226,13 +1419,245 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RamblerSupport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RamblerSupport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RamblerSupport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ramblersupport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resthandler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slidepay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android_CoreSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coresdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1240,6 +1665,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="editor.preferences.import" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="HT35ZW915594" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -1247,11 +1673,11 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_API_17" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1445,34 +1871,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="35" width="1889" height="1016" extended-state="6" />
+    <frame x="19" y="22" width="1859" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2328125" sideWeight="0.7632951" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842106" sideWeight="0.49944073" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23995657" sideWeight="0.50079405" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.28586724" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23620026" sideWeight="0.49930555" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23995657" sideWeight="0.49920592" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2358804" sideWeight="0.49930555" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28903654" sideWeight="0.49920592" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.49970433" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20010588" sideWeight="0.76004344" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2605905" sideWeight="0.49861112" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26304466" sideWeight="0.7109634" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26024362" sideWeight="0.49861112" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2328125" sideWeight="0.7632951" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842106" sideWeight="0.49944073" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1489,58 +1915,145 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Android_CoreSDK/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/CoreLibrary/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="998" selection-end="998" vertical-scroll-proportion="0.7792494" vertical-offset="52" max-vertical-offset="675">
+        <state line="23" column="5" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="1" selection-start="354" selection-end="354" vertical-scroll-proportion="0.31502423" vertical-offset="0" max-vertical-offset="619">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android_CoreSDK/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="24" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="13" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android_CoreSDK/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/CurrentSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="33" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/RestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="5" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <folding>
-            <element signature="e#414#432#0" expanded="true" />
-            <element signature="e#580#598#0" expanded="true" />
-            <element signature="e#938#976#0" expanded="true" />
-            <element signature="e#1107#1139#0" expanded="true" />
+            <element signature="method#RestHandler#0;class#RestHandler#0" expanded="false" />
+            <element signature="method#performRequest#0;class#RestHandler#0" expanded="false" />
+            <element signature="method#getPath#0;class#RestHandler#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/ResponseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/LoginHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="52" selection-start="5873" selection-end="5873" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+          <folding>
+            <element signature="method#login#0;class#LoginHandler#0" expanded="false" />
+            <element signature="method#processSupervisorResponse#0;class#LoginHandler#0" expanded="false" />
+            <element signature="class#5848:7093" expanded="false" />
+            <element signature="method#configureSessionFromResponse#0;class#LoginHandler#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/OrderHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="990">
+          <folding>
+            <element signature="docComment;method#OrderHandler#0;class#OrderHandler#0" expanded="false" />
+            <element signature="method#OrderHandler#0;class#OrderHandler#0" expanded="false" />
+            <element signature="method#getSummaries#0;class#OrderHandler#0" expanded="false" />
+            <element signature="method#getSummariesSinceReferenceDate#0;class#OrderHandler#0" expanded="false" />
+            <element signature="method#getOrderDetails#0;class#OrderHandler#0" expanded="false" />
+            <element signature="method#getOrderDetailForOMID#0;class#OrderHandler#0" expanded="false" />
+            <element signature="method#processOrderSummaries#0;class#OrderHandler#0" expanded="false" />
+            <element signature="method#processOrderDetail#0;class#OrderHandler#0" expanded="false" />
+            <element signature="method#resetSummaryRequest#0;class#OrderHandler#0" expanded="false" />
+            <element signature="method#resetDetailsRequest#0;class#OrderHandler#0" expanded="false" />
+            <element signature="method#setSummarySearchRange#0;class#OrderHandler#0" expanded="false" />
+            <element signature="method#getSummarySearchRange#0;class#OrderHandler#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/LoginFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+          <folding>
+            <element signature="method#login#0;class#LoginFragment#0" expanded="false" />
+            <element signature="method#getTokenDetails#0;class#LoginFragment#0" expanded="false" />
+            <element signature="method#onResume#0;class#LoginFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="0" selection-start="5233" selection-end="5233" vertical-scroll-proportion="0.0" vertical-offset="1858" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectRamblerSupport100.aar/libs/readerapi-android-2.2.0.jar!/net/homeatm/reader/g.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="0" selection-start="2974" selection-end="2974" vertical-scroll-proportion="-12.88" vertical-offset="1013" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/PaymentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="24" selection-start="3479" selection-end="3479" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="1515">
+          <folding>
+            <element signature="class#1765:2060" expanded="false" />
+            <element signature="method#refund#0;class#PaymentHandler#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RamblerSupport/src/main/java/com/slidepay/ramblersupport/SwipeListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="35" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1935">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#isListening#0;class#SwipeListener#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="720">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/LoginHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="19" selection-start="1810" selection-end="1813" vertical-scroll-proportion="-5.52" vertical-offset="462" max-vertical-offset="2955">
+        <state line="76" column="39" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1875">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/LoginFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="31" selection-start="1980" selection-end="2241" vertical-scroll-proportion="-7.92" vertical-offset="687" max-vertical-offset="2115">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Android_CoreSDK/src/main/java/com/slidepay/coresdk/PaymentFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="626" selection-end="626" vertical-scroll-proportion="-1.52" vertical-offset="322" max-vertical-offset="900">
+        <state line="66" column="91" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.48859936" vertical-offset="0" max-vertical-offset="614">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#onCreate#0;class#PaymentFragment#0" expanded="false" />
             <element signature="method#onCreateView#0;class#PaymentFragment#0" expanded="false" />
             <element signature="method#performPayment#0;class#PaymentFragment#0" expanded="false" />
             <element signature="method#presentProcessingDialog#0;class#PaymentFragment#0" expanded="false" />
@@ -1548,132 +2061,8 @@
             <element signature="method#presentPaymentToast#0;class#PaymentFragment#0" expanded="false" />
             <element signature="method#presentRefundToast#0;class#PaymentFragment#0" expanded="false" />
             <element signature="method#presentCenterToastWithMessage#0;class#PaymentFragment#0" expanded="false" />
+            <element signature="method#presentUpperToastWithMessage#0;class#PaymentFragment#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/ResponseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="780">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#checkResponseForSuccessFlag#0;class#ResponseHandler#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="6" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="840">
-          <folding>
-            <element signature="method#updateWithOrderDetails#0;class#Order#0" expanded="false" />
-            <element signature="method#toString#0;class#Order#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/OrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/CurrentSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="615">
-          <folding>
-            <element signature="method#getInstance#0;class#CurrentSession#0" expanded="false" />
-            <element signature="method#CurrentSession#0;class#CurrentSession#0" expanded="false" />
-            <element signature="method#setSessionFromJSON#0;class#CurrentSession#0" expanded="false" />
-            <element signature="method#toString#0;class#CurrentSession#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="14" selection-start="2781" selection-end="2781" vertical-scroll-proportion="-9.8" vertical-offset="325" max-vertical-offset="900">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#create#0;class#Payment#0" expanded="false" />
-            <element signature="method#create#1;class#Payment#0" expanded="false" />
-            <element signature="method#typeFromCCNumber#0;class#Payment#0" expanded="false" />
-            <element signature="method#setNotes#0;class#Payment#0" expanded="false" />
-            <element signature="method#getNotes#0;class#Payment#0" expanded="false" />
-            <element signature="method#setAmount#0;class#Payment#0" expanded="false" />
-            <element signature="method#getAmount#0;class#Payment#0" expanded="false" />
-            <element signature="method#asJson#0;class#Payment#0" expanded="false" />
-            <element signature="method#getLatitude#0;class#Payment#0" expanded="false" />
-            <element signature="method#setLatitude#0;class#Payment#0" expanded="false" />
-            <element signature="method#getLongitude#0;class#Payment#0" expanded="false" />
-            <element signature="method#setLongitude#0;class#Payment#0" expanded="false" />
-            <element signature="method#getPaymentID#0;class#Payment#0" expanded="false" />
-            <element signature="method#setPaymentID#0;class#Payment#0" expanded="false" />
-            <element signature="method#getOrderMasterID#0;class#Payment#0" expanded="false" />
-            <element signature="method#setOrderMasterID#0;class#Payment#0" expanded="false" />
-            <element signature="class#SimpleKeyedPayment#0" expanded="false" />
-            <element signature="class#SimpleSwipedPayment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/PaymentHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="75" selection-start="1633" selection-end="1633" vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="915">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#PaymentHandler#0;class#PaymentHandler#0" expanded="false" />
-            <element signature="method#makeSimplePayment#0;class#PaymentHandler#0" expanded="false" />
-            <element signature="class#1767:2062" expanded="false" />
-            <element signature="method#refund#0;class#PaymentHandler#0" expanded="false" />
-            <element signature="class#4537:4832" expanded="false" />
-            <element signature="method#refund#1;class#PaymentHandler#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/models/OrderMaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/RestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="9" selection-start="1613" selection-end="1613" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="615">
-          <folding>
-            <element signature="class#RequestMethod#0;class#RestHandler#0" expanded="false" />
-            <element signature="method#RestHandler#0;class#RestHandler#0" expanded="false" />
-            <element signature="method#performRequest#0;class#RestHandler#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreLibrary/src/main/java/com/slidepay/resthandler/OrderHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="5" selection-start="3939" selection-end="3939" vertical-scroll-proportion="0.0" vertical-offset="698" max-vertical-offset="1440">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getSummaries#0;class#OrderHandler#0" expanded="false" />
-            <element signature="method#processOrderSummaries#0;class#OrderHandler#0" expanded="false" />
-            <element signature="method#processOrderDetail#0;class#OrderHandler#0" expanded="false" />
-            <element signature="method#getSummariesSinceReferenceDate#0;class#OrderHandler#0" expanded="false" />
-            <element signature="method#getOrderDetails#0;class#OrderHandler#0" expanded="false" />
-            <element signature="method#getOrderDetailForOMID#0;class#OrderHandler#0" expanded="false" />
-            <element signature="method#resetSummaryRequest#0;class#OrderHandler#0" expanded="false" />
-            <element signature="method#resetDetailsRequest#0;class#OrderHandler#0" expanded="false" />
-            <element signature="method#getSummarySearchRange#0;class#OrderHandler#0" expanded="false" />
-            <element signature="method#setSummarySearchRange#0;class#OrderHandler#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="0" selection-end="259" vertical-scroll-proportion="0.51339287" vertical-offset="0" max-vertical-offset="672">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1729,7 +2118,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Android_CoreSDK</last-edited>
+          <last-edited>CoreLibrary</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

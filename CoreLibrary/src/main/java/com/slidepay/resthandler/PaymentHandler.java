@@ -15,11 +15,11 @@ import java.io.UnsupportedEncodingException;
 /**
  * Created by Alex on 9/12/13.
  * Every call to payment overwrites the previous payment response handler. If you care about the response, then you should wait for a request to finish before using the same
- *   PaymentHandler to make another payment. Alternatively, you can managed multiple requests with multiple instances of PaymentHandler.
+ *   PaymentHandler to make another payment. Alternatively, you can manage use multiple instances of PaymentHandler to manage multiple requests.
  *
  * The calls to refund() come with the same caveat.
  *
- * It is, however, safe to have a payment request and refund request running in parallel. The handlers are stored separately.
+ * It is safe to have a payment request and refund request running in parallel. The handlers are stored separately.
  *
  * Currently, the Android SDK only supports the payment/simple API. When passing a SimplePayment object to the makeSimplePayment() method, the following fields will need to be present:
  *   company_id, location_id, amount_to_charge, credit
