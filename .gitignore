@@ -20,8 +20,3 @@ local.properties
 .project
 
 #build settings
-/*/*/build
-
-#build folder
-*/build
-build/
