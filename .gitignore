@@ -19,4 +19,14 @@ local.properties
 .classpath
 .project
 
-#build settings
+# IntelliJ IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+classes
+gen-external-apklibs
+
+# Gradle
+.gradle
+build
