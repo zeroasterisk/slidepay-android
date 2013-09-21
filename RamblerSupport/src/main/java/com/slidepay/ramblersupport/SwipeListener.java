@@ -69,14 +69,19 @@ public class SwipeListener {
             @Override
             public void onInterrupted() {
                 Log.w(TAG,"onInterrupted");
-                if(SwipeListener.this.isListening){
-                    SwipeListener.this.setListening(false);
-                }
-                SwipeListener.this.setListening(true);
+                try {
+                    if(SwipeListener.this.isListening)
+                        SwipeListener.this.setListening( false );
+                } catch( IllegalStateException ignore ) {}
+                try {
+                    SwipeListener.this.setListening( true );
+                } catch( IllegalStateException ignore ) {}
+
             }
 
             @Override
             public void onNoDeviceDetected() {
+                Log.w(TAG,"onNoDeviceDetected");
                 mUserHandler.swipeFailed( ERROR_NO_DEVICE );
             }
 
@@ -84,31 +89,34 @@ public class SwipeListener {
             public void onTimeout() {
                 Log.w(TAG,"onTimeout");
                 mUserHandler.swipeFailed( ERROR_TIMEOUT );
+                if(SwipeListener.this.mReaderController != null){
+                    SwipeListener.this.setListening(true);
+                }
             }
 
             @Override
             public void onDecodingStart() {
-
+                Log.w(TAG,"onDecodingStart");
             }
 
             @Override
             public void onWaitingForCardSwipe() {
-
+                Log.w(TAG,"onWaitingForCardSwipe");
             }
 
             @Override
             public void onWaitingForDevice() {
-
+                Log.w(TAG,"onWaitingForDevice");
             }
 
             @Override
             public void onDevicePlugged() {
-
+                Log.w(TAG,"onDevicePlugged");
             }
 
             @Override
             public void onDeviceUnplugged() {
-
+                Log.w(TAG,"onDeviceUnplugged");
             }
         });
     }
@@ -137,11 +145,13 @@ public class SwipeListener {
     public void setListening(boolean listening) throws IllegalStateException {
         if ( mReaderController == null )
             throw new IllegalStateException( "Already released reader" );
-        isListening = listening;
-        if(isListening){
-            mReaderController.startReader();
-        }else{
-            mReaderController.stopReader();
+        if(SwipeListener.this.mReaderController.getReaderState() == ReaderController.ReaderControllerState.STATE_IDLE){
+            isListening = listening;
+            if(isListening){
+                mReaderController.startReader();
+            }else{
+                mReaderController.stopReader();
+            }
         }
     }
 

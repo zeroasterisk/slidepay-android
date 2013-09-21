@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibraryUnspecified.aar/libs/gson-2.2.4.jar!/" />
       <root url="jar://$PROJECT_DIR$/Android_CoreSDK/build/exploded-bundles/Android_CoreSDKProjectCoreLibrary001.aar/libs/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/CoreLibrary/libs/gson-2.2.4.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

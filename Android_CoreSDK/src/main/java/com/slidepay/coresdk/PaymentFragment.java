@@ -37,13 +37,17 @@ public class PaymentFragment extends Fragment{
     }
 
     @Override public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState){
-        Log.d(TAG,"inflate the view for the login fragment");
+        Log.d(TAG,"inflate the view for the payment fragment");
         View v = inflater.inflate(R.layout.fragment_payment,parent,false);
         TextView successLabel = (TextView)v.findViewById(R.id.payment_success_view);
         if(successLabel != null){
             successLabel.setVisibility(0);
         }
+        startListening();
+        return v;
+    }
 
+    private void startListening(){
         mSwipeListener = new SwipeListener(getActivity().getApplicationContext(),new SwipeListener.SwipeHandler() {
             @Override
             public void swipeObtained(Bundle ccBundle) {
@@ -51,15 +55,20 @@ public class PaymentFragment extends Fragment{
                 Payment payment = Payment.create(ccBundle,1);
                 Log.d(TAG,"performing payment");
                 PaymentFragment.this.performPayment(payment);
+                Log.d(TAG,"reader state = "+PaymentFragment.this.mSwipeListener.mReaderController.getReaderState());
+                PaymentFragment.this.mSwipeListener.mReaderController.startReader();
             }
             @Override
             public void swipeFailed(int code) {
                 Log.w(TAG,"swipe failed");
+                Log.d(TAG,"reader state = "+PaymentFragment.this.mSwipeListener.mReaderController.getReaderState());
+                //mSwipeListener.mReaderController.startReader();
+                if(PaymentFragment.this.mSwipeListener.mReaderController.isDevicePresent()){
+                    mSwipeListener.mReaderController.startReader();
+                }
             }
         });
         mSwipeListener.setListening(true);
-
-        return v;
     }
 
     /**
