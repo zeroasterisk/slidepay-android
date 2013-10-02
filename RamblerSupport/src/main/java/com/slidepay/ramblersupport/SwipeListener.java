@@ -26,6 +26,13 @@ public class SwipeListener {
     public static final int ERROR_NO_DEVICE = 2;
     public static final int ERROR_TIMEOUT = 3;
 
+    public static final int DEVICE_CONNECTED = 10;
+    public static final int DEVICE_DISCONNECTED = 11;
+    public static final int DEVICE_IDLE = 12;
+    public static final int DEVICE_WAITING = 13;
+    public static final int DEVICE_RECORDING = 14;
+    public static final int DEVICE_DECODING = 15;
+
     public SwipeListener(Context context, SwipeHandler handler){
         mLastGeneralError = null;
         isListening = true;
@@ -56,6 +63,21 @@ public class SwipeListener {
             @Override
             public void onDecodeError(ReaderController.DecodeResult decodeResult) {
                 Log.w(TAG,"decode error");
+                //DECODE_SUCCESS, DECODE_SWIPE_FAIL, DECODE_CRC_ERROR, DECODE_COMM_ERROR, DECODE_UNKNOWN_ERROR;
+                String message = "";
+                if(decodeResult == ReaderController.DecodeResult.DECODE_SWIPE_FAIL){
+                    message = "swipe failed";
+                }
+                if(decodeResult == ReaderController.DecodeResult.DECODE_CRC_ERROR){
+                    message = "CRC error";
+                }
+                if(decodeResult == ReaderController.DecodeResult.DECODE_COMM_ERROR){
+                    message = "Communication error";
+                }
+                if(decodeResult == ReaderController.DecodeResult.DECODE_UNKNOWN_ERROR){
+                    message = "unknown error";
+                }
+                Log.w(TAG,"Decode Error: "+message);
                 mUserHandler.swipeFailed( ERROR_DECODE );
             }
 
@@ -97,6 +119,7 @@ public class SwipeListener {
             @Override
             public void onDecodingStart() {
                 Log.w(TAG,"onDecodingStart");
+                mUserHandler.stateChanged(DEVICE_DECODING);
             }
 
             @Override
@@ -107,18 +130,24 @@ public class SwipeListener {
             @Override
             public void onWaitingForDevice() {
                 Log.w(TAG,"onWaitingForDevice");
+                mUserHandler.stateChanged(DEVICE_WAITING);
             }
 
             @Override
             public void onDevicePlugged() {
                 Log.w(TAG,"onDevicePlugged");
+                mUserHandler.stateChanged(DEVICE_CONNECTED);
             }
 
             @Override
             public void onDeviceUnplugged() {
                 Log.w(TAG,"onDeviceUnplugged");
+                mUserHandler.stateChanged(DEVICE_DISCONNECTED);
+
             }
         });
+        mReaderController.setDetectDeviceChange(true);
+        mReaderController.setMaxVolume(1000);
     }
     private SwipeListener(){}
 
@@ -154,6 +183,11 @@ public class SwipeListener {
             }
         }
     }
+    public void stopListening(){
+        try{
+            mReaderController.stopReader();
+        }catch(IllegalStateException e){};//we just don't care.
+    }
 
     /**
      * Releases the resource of this listener
@@ -162,6 +196,7 @@ public class SwipeListener {
         mReaderController.deleteReader();
         mReaderController = null;
     }
+
     /**
      * Returns the last general error
      * @return the error
@@ -173,5 +208,6 @@ public class SwipeListener {
     public abstract interface SwipeHandler{
         public abstract void swipeObtained(Bundle ccBundle);
         public abstract void swipeFailed( int errorCode );
+        public abstract void stateChanged( int newState);
     }
 }

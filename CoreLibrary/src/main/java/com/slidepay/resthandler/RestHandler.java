@@ -24,6 +24,7 @@ public class RestHandler {
         mClient.addHeader("x-cube-encoding","application/json");
         mClient.addHeader("Content-Type","application/json");
         mClient.addHeader("Accept","application/json");
+        mClient.setTimeout(15);
         if(mToken != null && !mToken.equals("")){
             mClient.addHeader("x-cube-token",mToken);
         }

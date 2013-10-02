@@ -44,7 +44,29 @@ public class PaymentFragment extends Fragment{
             successLabel.setVisibility(0);
         }
         startListening();
+//        mSwipeListener.mReaderController.stopReader();
         return v;
+    }
+
+    @Override
+    public void onPause() {
+        Log.d(TAG,"on pause");
+        if(mSwipeListener != null){
+//            mSwipeListener.mReaderController.getReaderState()
+            mSwipeListener.stopListening();
+        }
+        super.onPause();
+    }
+
+    @Override
+    public void onResume() {
+        Log.d(TAG,"on resume");
+        if(mSwipeListener == null){
+            startListening();
+        }else{
+            mSwipeListener.setListening(true);
+        }
+        super.onResume();
     }
 
     private void startListening(){
@@ -54,21 +76,52 @@ public class PaymentFragment extends Fragment{
                 Log.d(TAG,"creating payment");
                 Payment payment = Payment.create(ccBundle,1);
                 Log.d(TAG,"performing payment");
-                PaymentFragment.this.performPayment(payment);
+//                PaymentFragment.this.performPayment(payment);
                 Log.d(TAG,"reader state = "+PaymentFragment.this.mSwipeListener.mReaderController.getReaderState());
                 PaymentFragment.this.mSwipeListener.mReaderController.startReader();
             }
             @Override
             public void swipeFailed(int code) {
-                Log.w(TAG,"swipe failed");
+                Log.w(TAG,"swipe failed with code "+code);
                 Log.d(TAG,"reader state = "+PaymentFragment.this.mSwipeListener.mReaderController.getReaderState());
                 //mSwipeListener.mReaderController.startReader();
                 if(PaymentFragment.this.mSwipeListener.mReaderController.isDevicePresent()){
                     mSwipeListener.mReaderController.startReader();
                 }
             }
+
+            @Override
+            public void stateChanged(int newState) {
+                Log.d(TAG,"Rambler state changed "+newState);
+                if(newState == SwipeListener.DEVICE_CONNECTED){
+                    Log.d(TAG,"Device connected");
+                    if(mSwipeListener != null){
+                        mSwipeListener.setListening(true);
+                    }else{
+                        startListening();
+                    }
+                }else if (newState == SwipeListener.DEVICE_DISCONNECTED){
+                    Log.d(TAG,"Device disconnected");
+                    if(mSwipeListener != null){
+                        mSwipeListener.stopListening();
+                    }else{
+
+                    }
+                }else if (newState == SwipeListener.DEVICE_WAITING){
+                    Log.d(TAG,"Device device waiting for swipe");
+                }else if (newState == SwipeListener.DEVICE_IDLE){
+                    Log.d(TAG,"Device idle");
+                }else if (newState == SwipeListener.DEVICE_DECODING){
+                    Log.d(TAG,"Device decoding");
+                }else if (newState == SwipeListener.DEVICE_RECORDING){
+                    Log.d(TAG,"Device recording");
+                }
+
+            }
         });
-        mSwipeListener.setListening(true);
+//        mSwipeListener.setListening(true);
+
+
     }
 
     /**
@@ -173,6 +226,9 @@ public class PaymentFragment extends Fragment{
         Toast toast = Toast.makeText(getActivity(),string, duration);
         toast.setGravity(Gravity.CENTER,0,300);
         toast.show();
+    }
+    private void presentAlertWithMessage(String message){
+
     }
 
 }

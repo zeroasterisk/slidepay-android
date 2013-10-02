@@ -40,7 +40,6 @@ public class PaymentHandler extends RestHandler {
      */
     public void makeSimplePayment(Payment payment, ResponseHandler handler){
         //verify that the payment object has been filled out correctly
-
         if(handler == null){
             mUserHandler = new ResponseHandler() {
                 @Override
@@ -146,6 +145,39 @@ public class PaymentHandler extends RestHandler {
         assert (payment != null);
         assert(paymentID > 0);
         refund(payment.getPaymentID(),handler);
+    }
+
+    public void find(int paymentID, ResponseHandler handler){
+
+        if(handler == null){
+            mRefundHandler = new ResponseHandler() {
+                @Override
+                public void onSuccess(Object response) {
+
+                }
+
+                @Override
+                public void onFailure(Throwable e, JSONObject response, int errorCode, String errorDescription) {
+
+                }
+            }; //a blank handler
+        }else{
+            mRefundHandler = handler;
+        }
+        mResource = "payment";
+        mClient.put(getPath(),new JsonHttpResponseHandler(){
+
+            @Override
+            public void onSuccess(JSONObject jsonObject) {
+                super.onSuccess(jsonObject);
+            }
+
+            @Override
+            public void onFailure(Throwable throwable, JSONObject jsonObject) {
+                super.onFailure(throwable, jsonObject);
+            }
+
+        });
     }
 
 }

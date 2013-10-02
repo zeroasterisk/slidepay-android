@@ -28,7 +28,6 @@ public class LoginHandler extends RestHandler{
         TAG = "SP_LoginHandler";
         Log.d(TAG,"login handler constructor");
     }
-
     /**
      * @param userHandler An anonymous instance of ResponseHandler that implements onSuccess and on Failure. In onSuccess, the response
      *                    object is an instance of JSONObject. There's not much to read there (the token necessary for future API
@@ -36,14 +35,17 @@ public class LoginHandler extends RestHandler{
      * @return if email or password haven't been set, then this will return false.
      */
     public boolean login(ResponseHandler userHandler){
-        if(mEmail == null || mPassword == null){
+        if(mEmail == null || mPassword == null || mEmail.equalsIgnoreCase("") || mPassword.equalsIgnoreCase("")){
             return false;
+        }else{
+            Log.d(TAG,"logging in with "+mEmail+" and password "+mPassword);
         }
         mUserHandler = userHandler;
         mClient.addHeader("x-cube-email",mEmail);
         mClient.addHeader("x-cube-password",mPassword);
         mEndpoint = "https://supervisor.getcube.com:65532/rest.svc/";
         mResource = "API/endpoint";
+
         mClient.get(getPath(), new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(JSONObject response) {

@@ -1,9 +1,11 @@
 package com.slidepay.coresdk;
 
+import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -30,6 +32,7 @@ public class LoginFragment extends Fragment{
     private EditText mEmailField;
     private EditText mPasswordField;
     private static final String TAG = "SP_LoginFragment";
+    private static final boolean overrideLogin = true;
     private ProgressDialog mDialog;
 
 
@@ -53,31 +56,78 @@ public class LoginFragment extends Fragment{
         mSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mDialog = new ProgressDialog(getActivity());
-                mDialog.setMessage("Logging you in. Please Wait");
-                mDialog.setCancelable(false);
-                mDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-                mDialog.show();
-                login();
+                if(overrideLogin){
+                    loginSuccess();
+                }else{
+                    if(checkPermissions()){
+                        login();
+                    }
+                }
             }
         });
-
-        //set debug values for email and password
-//        mEmailField.setText(R.string.login_debug_email);
-//        mPasswordField.setText(R.string.login_debug_password);
-
-
-        //
 
         return v;
     }
 
+    public boolean checkPermissions(){
+
+        String title = "Please check your permissions";
+        String message = null;
+
+        if(getActivity().getApplicationContext().checkCallingOrSelfPermission("android.permission.INTERNET") != PackageManager.PERMISSION_GRANTED){
+            message = "This application requires internet permissions in order to run.";
+        }
+        if(getActivity().getApplicationContext().checkCallingOrSelfPermission("android.permission.ACCESS_NETWORK_STATE") != PackageManager.PERMISSION_GRANTED){
+            message = "This application requires network state permissions in order to run.";
+        }if(getActivity().getApplicationContext().checkCallingOrSelfPermission("android.permission.RECORD_AUDIO") != PackageManager.PERMISSION_GRANTED){
+            message = "This application requires audio recording permissions in order to run.";
+        }
+
+        if(message != null){
+            showAlertDialog(title,message);
+            return false;
+        }else{
+            return true;
+        }
+    }
+
+    public void showAlertDialog(String title, String message){
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setMessage(title)
+                .setTitle(message);
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+    public void showUsernamePasswordAlert(){
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setMessage("Please enter both a username and password.")
+                    .setTitle("Unable to Begin Login Process");
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+    public void showProgressDialog(){
+        if(mDialog != null){
+            mDialog.dismiss();
+        }
+        mDialog = new ProgressDialog(getActivity());
+        mDialog.setMessage("Logging you in. Please Wait");
+        mDialog.setCancelable(false);
+        mDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        mDialog.show();
+    }
+
     public void login(){
+        //check permissions
         String email = mEmailField.getText() != null ? mEmailField.getText().toString() : "";
         String password = mPasswordField.getText() != null ? mPasswordField.getText().toString() : "";
         Log.d(TAG,"logging in w/ email: "+email+"   and pword: "+password);
+        mSubmit.setEnabled(false);
+        showProgressDialog();
         mLoginHandler = new LoginHandler(email,password);
-        mLoginHandler.login(new ResponseHandler() {
+        boolean didLogin = mLoginHandler.login(new ResponseHandler() {
             @Override
             public void onSuccess(Object response) {
                 JSONObject jsonResponse = (JSONObject)response;
@@ -89,9 +139,15 @@ public class LoginFragment extends Fragment{
             public void onFailure(Throwable e, JSONObject response, int errorCode, String errorDescription) {
                 //popups
                 Log.d(TAG,"login failed. Response: "+response);
-                mDialog.dismiss();
+                loginFailed("login failed");
             }
         });
+        if(!didLogin){
+            mDialog.dismiss();
+            showUsernamePasswordAlert();
+            loginFailed("");
+        }
+
     }
 
     public void getTokenDetails(){
@@ -123,13 +179,17 @@ public class LoginFragment extends Fragment{
     }
 
     public void loginFailed(String response){
-        mDialog.dismiss();
-
+        mSubmit.setEnabled(true);
+        if(mDialog.isShowing()){
+            mDialog.dismiss();
+        }
     }
     public void loginSuccess(){ //disable the login button and transition to the next screen
         mSubmit.setEnabled(false);
-        mDialog.setProgress(mDialog.getMax());
-        mDialog.dismiss();
+        if(mDialog != null && mDialog.isShowing()){
+            mDialog.setProgress(mDialog.getMax());
+            mDialog.dismiss();
+        }
         Log.d(TAG,"loginSuccess - transitioning");
         Intent intent = new Intent(getActivity(),PaymentActivity.class);
         startActivity(intent);
